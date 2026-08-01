@@ -1,0 +1,3006 @@
+Package: actionmenu
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 1540
+Architecture: iphoneos-arm
+Version: 1.4.1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3), preferenceloader (>= 2.2.2), cydia (>= 1.1.1), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
+Conflicts: actionmenu-pluspack (<< 1.2)
+Description: Adds actions to the action menu
+Depiction: http://rpetri.ch/cydia/actionmenu/
+Website: http://rpetri.ch/cydia/actionmenu/
+Name: Action Menu
+Author: Ryan Petrich <rpetrich@gmail.com>
+Filename: debs/actionmenu_1.4.1_iphoneos-arm.deb
+
+Package: ai.akemi.appsyncunified
+Section: iOS 6 Tweaks
+Installed-Size: 636
+Maintainer: Biện Văn Nhật <bienvannhat97@gmail.com>
+Architecture: iphoneos-arm
+Version: 113.0
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.5.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute, akemi.appsink, akemi.appsyncunifed, akemi.appsyncunifed2, akemi.appsyncunifedpatched, appsyncpatched, appsyncrootless, weaponized.autism.technology.appsyncunified
+Description: Cho phép khả năng cài đặt các ứng dụng iOS chưa được ký/đã được ký giả.
+Depiction: http://bvnsupport.github.io/infodeb/AppSync/?p=info
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/AppSync.json
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Homepage: https://cydia.akemi.ai/
+Name: AppSync Unified (iOS 5-16)
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Filename: debs/ai.akemi.appsyncunified_113.0_iphoneos-arm.deb
+
+Package: applist
+Section: iOS 6 Tweaks
+Installed-Size: 780
+Maintainer: Ryan Petrich <rpetrich@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.5.16
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
+Conflicts: com.a3tweaks.polus (<< 2.0.7)
+Description: Allow extensions to read the list of installed apps
+Name: AppList
+Author: Ryan Petrich <rpetrich@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+Website: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=AppListDp
+dev: rpetrich
+Filename: debs/applist_1.5.16_iphoneos-arm.deb
+
+Package: apr-lib
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 176
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.3.3-2
+Replaces: apr (<< 1.3.3-4)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: just the /usr/lib folder from APR
+Name: APR (/usr/lib)
+Homepage: http://apr.apache.org/
+Filename: debs/apr-lib_1.3.3-2_iphoneos-arm.deb
+
+Package: apt7-key
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 28
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-3
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-4)
+Depends: apt7-lib (>= 0.7.25.3-7)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: repository encryption key management tool
+Name: APT 0.7 (apt-key)
+Filename: debs/apt7-key_0.7.25.3-3_iphoneos-arm.deb
+
+Package: apt7-lib
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 1660
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-16
+Replaces: apt (<< 1:0-1), apt7 (<< 0.7.20.2-3), apt7-ssl
+Provides: apt7-ssl
+Depends: bzip2, dpkg (>= 1.14.25-9), gnupg, gzip, lzma
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: cydia (<< 1.1.10), apt7 (<< 0.7.25.3-7), aptitude (<< 0.4.11.11-6)
+Conflicts: apt7-ssl
+Description: the advanced packaging library from Debian
+Name: APT 0.7 Strict (lib)
+Filename: debs/apt7-lib_0.7.25.3-16_iphoneos-arm.deb
+
+Package: apt7
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 1152
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.7.25.3-9
+Replaces: apt (<< 1:0-1)
+Depends: apt7-key, apt7-lib (>= 0.7.25.3-7), berkeleydb
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: the advanced packaging tool from Debian
+Name: APT 0.7 Strict
+Filename: debs/apt7_0.7.25.3-9_iphoneos-arm.deb
+
+Package: apt
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 12
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1:0-23
+Depends: apt7
+Pre-Depends: dpkg (>= 1.14.25-8)
+Conflicts: cydia (<< 1.0.2843-1)
+Description: any advanced packaging tool from Debian
+Name: APT 0.6 Transitional
+Filename: debs/apt_0-23_iphoneos-arm.deb
+
+Package: bag.xml.tuberepair
+Section: iOS 6 Tweaks
+Installed-Size: 216
+Maintainer: bag.xml, Requis
+Architecture: iphoneos-arm
+Version: 1.2-Beta-1
+Depends: mobilesubstrate, preferenceloader
+Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
+Name: TubeRepair [BETA]
+Author: bag.xml, Requis
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.tuberepair/depictions/index.html
+Icon: file:///Library/Application%20Support/bag.xml.tuberepair/TubeRepair-Icon.png
+Filename: debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+
+Package: base
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 264
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1-4
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: underlying system directory structure
+Name: Base Structure
+Filename: debs/base_1-4_iphoneos-arm.deb
+
+Package: bash
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 592
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.0.44-16
+Depends: grep, ncurses, readline (>= 6.0-7), sed
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+Homepage: http://www.gnu.org/software/bash/
+Filename: debs/bash_4.0.44-16_iphoneos-arm.deb
+
+Package: berkeleydb
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 1704
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.6.21-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+Homepage: http://www.oracle.com/technology/products/berkeley-db/index.html
+Filename: debs/berkeleydb_4.6.21-5_iphoneos-arm.deb
+
+Package: bzip2
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 148
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.0.5-8
+Description: compression that's slightly better than gzip
+Homepage: http://www.bzip.org/
+Filename: debs/bzip2_1.0.5-8_iphoneos-arm.deb
+
+Package: ca.adrien.appdrop
+Section: iOS 6 Tweaks
+Installed-Size: 89
+Maintainer: Adrien Ruest-Lorquet
+Architecture: iphoneos-arm
+Version: 3.2.1
+Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
+Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. (17 themes + dark mode, Favorites & folders, 9 languages.)
+Name: AppDrop
+Homepage: https://github.com/AdrienRL1/AppDrop
+Depiction: https://adrienrl1.github.io/cydia/depiction.html
+Icon: https://adrienrl1.github.io/cydia/PackageIcon.png
+Author: Adrien Ruest-Lorquet
+Tag: compatible_min::ios5.0
+Filename: debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+
+Package: com.a3tweaks.flipswitch
+Section: iOS 6 Tweaks
+Installed-Size: 2408
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.16
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Description: Centralized toggle system for iOS
+Name: Flipswitch
+Homepage: https://rpetrich.com/cydia/flipswitch/
+Depiction: https://rpetrich.com/cydia/flipswitch/
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
+Tag: purpose::extension, role::developer
+Icon: file:///Applications/Preferences.app/icon-table.png
+dev: flipswitch
+Filename: debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+
+Package: com.aoi.storefix6
+Section: iOS 6 Tweaks
+Maintainer: satou@aoiblog.jp
+Architecture: iphoneos-arm
+Version: 1.0-8
+Depends: firmware (>= 6.0), firmware (<< 7.0), net.nekokawa.appstorefix, uk.invoxiplaygames.checkmatestore, com.innoying.sbutils
+Conflicts: com.aoi.storefix6
+Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
+Author: satou@aoiblog.jp
+Name: AppStoreFix(ios6)
+Depiction: http://aoiblog.jp/repo/index_ios6.html
+dev: aoi_satou
+Tag: purpose::extension
+Filename: debs/com.aoi.storefix6_1.0-8_iphoneos-arm.deb
+
+Package: com.arichardson.weepreferenceloader
+Priority: extra
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: firmware (>= 5.0), mobilesubstrate
+Description: A framework to easily add preferences to the Notifications settings.
+Name: WeePreferenceLoader
+Author: Andrew Richardson <andrewr114@gmail.com>
+Depiction: http://modmyi.com/info/weepreferenceloader.d.php
+Homepage: http://modmyi.com/info/weepreferenceloader.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
+
+Package: com.ashman.wvc
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.0.0
+Depends: mobilesubstrate
+Description: Adds simple URL handling to custom preferences.
+Author: David Ashman (Stimpy5050)
+Name: WebViewController
+Depiction: http://modmyi.com/info/wvc.d.php
+Homepage: http://modmyi.com/info/wvc.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.ashman.wvc_1.0.0_iphoneos-arm.deb
+
+Package: com.autopear.installipa
+Section: iOS 6 Tweaks
+Installed-Size: 238
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 3.4.1-1
+Depends: firmware (>= 4.0)
+Description: Install IPA from the command line
+Name: IPA Installer Console
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
+Author: Merlin <lonelystars@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: lonelystars
+Tag: purpose::console, role::enduser, compatible::ios7, compatible::ios8
+Filename: debs/com.autopear.installipa_3.4.1-1_iphoneos-arm.deb
+
+Package: com.bienvannhat.vinyl
+Section: iOS 6 Tweaks
+Maintainer: Biện Văn Nhật
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: mobilesubstrate
+Description: Thu gọn & làm mờ trình phát nhạc trên màn hình khoá của bạn!
+Name: Vinyl
+Author: NTQ1195
+Depiction: http://bvnsupport-jailbreak.github.io/infodeb/Vinyl/?p=info
+SileoDepiction: http://bvnsupport-jailbreak.github.io/infodeb/Vinyl/?p=info
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Filename: debs/com.bienvannhat.vinyl_1.0_iphoneos-arm.deb
+
+Package: com.bienvannhat.zephyr
+Section: iOS 6 Tweaks
+Installed-Size: 112
+Maintainer: Biện Văn Nhật
+Architecture: iphoneos-arm
+Version: 1.6.4-1
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
+Pre-Depends: firmware (>= 5.0)
+Conflicts: com.dapetcu21.multicleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
+Description: Thao tác đa nhiệm và cử chỉ vuốt tuyệt vời!
+Name: Zephyr VH
+Icon: file:///Applications/Cydia.app/Sections/tinhchinhh1.png
+Homepage: http://chpwn.com/cydia/zephyr.html
+Author: chpwn <support@chpwn.com>
+dev: chpwn
+Filename: debs/com.bienvannhat.zephyr_1.6.4-1_iphoneos-arm.deb
+
+Package: com.bushe.unlock7
+Priority: extra
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 0.0.2-1
+Depends: mobilesubstrate
+Description: Slide anywhere on the screen to unlock your phone
+Name: Unlock7
+Author: bushe <bushe102@gmail.com>
+Depiction: http://modmyi.com/info/unlock7.d.php
+Homepage: http://modmyi.com/info/unlock7.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.bushe.unlock7_0.0.2-1_iphoneos-arm.deb
+
+Package: com.bvn.lsuisnake
+Section: Themes
+Maintainer: BVN Repo
+Architecture: iphoneos-arm
+Version: 0.1
+Description: LS UI Snake Thay đổi nền nút đèn pin và camera
+Name: LS UI Snake
+Author: Hưng Nguyễn
+Depiction: http://bvnsupport.github.io/infodeb/Html/Snake.html
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/Snake.json
+Icon: file:///Applications/Cydia.app/Sections/chudee1.png
+Filename: debs/com.bvn.lsuisnake_0.1_iphoneos-arm.deb
+
+Package: com.bvn.solsticer
+Section: Themes
+Installed-Size: 65137
+Maintainer: Bvn repo
+Architecture: iphoneos-arm
+Version: 3.0.7K
+Description: Solstice Theme 3650 icons
+Author: Rifai <icons-requests@hotmail.com>
+Name: Solstice Theme
+Depiction: http://bvnsupport.github.io/infodeb/Html/solstice.html
+SileoDepiction: https://bvnsupport.github.io/sileodepictions/solstice.json
+Icon: file:///Applications/Cydia.app/Sections/chudee1.png
+Filename: debs/com.bvn.solsticer_3.0.7K_iphoneos-arm.deb
+
+Package: com.bvnsupport.jailbreak.github.io.icon
+Essential: yes
+Section: iOS 6 Tweaks
+Maintainer: Biện Văn Nhật
+Architecture: iphoneos-arm
+Version: 6.3-3
+Description: Biểu tượng Cydia cho kho lưu trữ BVN
+Name: BVN-Icon Repo
+Author: Biện Văn Nhật
+Sileodepiction: http://bvnsupport-jailbreak.github.io/sileo-depiction/icon
+Depiction: Biểu tượng Cydia cho kho lưu trữ BVN
+Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+Filename: debs/com.bvnsupport.jailbreak.github.io.icon_6.3-3_iphoneos-arm.deb
+
+Package: com.bytafont.bytafonttm
+Section: iOS 6 Tweaks
+Maintainer: BytaFont.com <info@bytafont.com>
+Architecture: iphoneos-arm
+Version: 1.1.4
+Depends: mobilesubstrate
+Description: BytaFont Tweak Mode
+Name: BytaFont Tweak Mode
+Depiction: http://repo.bytafont.com/bytafont_tweakmode_depiction
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.bytafont.bytafonttm_1.1.4_iphoneos-arm.deb
+
+Package: com.bytafonttm.bebasneue
+Section: iOS 6 Tweaks
+Maintainer: BytaFont.com <info@bytafont.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: com.bytafont.bytafonttm
+Description: Tweak Mode font by BytaFont.com
+Name: Bebas Neue Font
+Depiction: http://repo.bytafont.com/font/bftm/327
+Author: BytaFont.com <info@bytafont.com>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.bytafonttm.bebasneue_1.0_iphoneos-arm.deb
+
+Package: com.chpwn.weeloader
+Section: iOS 6 Tweaks
+Installed-Size: 99
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.4-4
+Depends: mobilesubstrate
+Pre-Depends: firmware (>= 5.0)
+Description: Weeeeeeeeeee! Load Wee apps safely.
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
+Author: joedj <weeloader@joedj.net>
+Name: WeeLoader
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: joejordan
+Tag: role::developer, purpose::extension, ios7support::1, ios8support::1
+Filename: debs/com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
+
+Package: com.ericasadun.utilities
+Section: iOS 6 Tweaks
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Architecture: iphoneos-arm
+Version: 1:0.4.2
+Description: A collection of command-line utilities for various purposes.
+Name: Erica Utilities
+Depiction: http://modmyi.com/info/ericautilities.d.php
+Homepage: http://modmyi.com/info/ericautilities.php
+Author: Erica Sadun <apptapp@ericasadun.com>
+Sponsor: ModMyi.com <http://modmyi.com>
+Filename: debs/com.ericasadun.utilities_0.4.2_iphoneos-arm.deb
+
+Package: com.hackyouriphone.iconrepo
+Essential: yes
+Section: HYI
+Maintainer: iDevid <repo@hackyouriphone.org>
+Architecture: iphoneos-arm
+Version: 5.1
+Description: Officials HYI Repo Icons
+Name: HYI Repo Icons
+Author: HackYouriPhone <repo@hackyouriphone.org>
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=IconRepo
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=IconRepo
+Filename: debs/com.hackyouriphone.iconrepo_5.1_iphoneos-arm.deb
+
+Package: com.ih8sn0w-squiffy-winocm.p0sixspwn
+Section: iOS 6 Tweaks
+Installed-Size: 88
+Maintainer: iH8sn0w, SquiffyPwn, winocm
+Architecture: iphoneos-arm
+Version: 1.4-1
+Depends: firmware (>= 6.1.3), firmware (<< 7.0)
+Description: A drama free 6.1.3/6.1.4/6.1.5/6.1.6 untether.
+Name: p0sixspwn
+Author: iH8sn0w, SquiffyPwn, winocm
+Depiction: http://cydia.saurik.com/info/com.ih8sn0w-squiffy-winocm.p0sixspwn/
+Filename: debs/com.ih8sn0w-squiffy-winocm.p0sixspwn_1.4-1_iphoneos-arm.deb
+
+Package: com.ihacksrepo.reposetupfiles
+Essential: yes
+Section: IHR
+Maintainer: iHacksRepo <noreply@ihacksrepo.com>
+Architecture: iphoneos-arm
+Version: 2.0
+Replaces: com.ihacksrepo.ihacksreposecurity, com.ihacksrepo.ihrrepoicons, com.ihacksrepo.repoprep, com.ihacksrepo.reposicon, com.ihacksrepo.repoicons
+Conflicts: com.ihacksrepo.ihacksreposecurity, com.ihacksrepo.ihrrepoicons, com.ihacksrepo.repoprep, com.ihacksrepo.reposicon, com.ihacksrepo.repoicons
+Description: This file is to setup the repo completely with all missing section icons, repo icons and more
+Required: Yes
+Name: Repo Setup Files
+Author: Matthew
+Sponsor: iHacksRepo <http://ihacksrepo.com>
+Depiction: http://ihacksrepo.com/depiction.php?package=reposetupfiles
+Homepage: http://ihacksrepo.com
+Filename: debs/com.ihacksrepo.reposetupfiles_2.0_iphoneos-arm.deb
+
+Package: com.innoying.sbutils
+Section: iOS 6 Tweaks
+Installed-Size: 123
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0.2-1
+Depends: firmware (>= 4.0)
+Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones
+Name: sbutils
+Author: Luke Young (innoying) <innoying@gmail.com>
+dev: innoying
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
+Tag: purpose::console, role::hacker
+Filename: debs/com.innoying.sbutils_1.0.2-1_iphoneos-arm.deb
+
+Package: com.iphonerepocenter.vinylmationtheme
+Section: Themes (SpringBoard)
+Installed-Size: 2844
+Maintainer: hosting <hosting@iphonerepocenter.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: winterboard
+Description: custom icons based on Disney collectibles
+Author: Jose Randolf <qbanpapi04@yahoo.com>
+Name: Vinylmation Theme
+Depiction: http://moreinfo.iphonerepocenter.com/moreinfo/vinylmationthemeDp.php
+Website: http://moreinfo.iphonerepocenter.com/moreinfo/vinylmationthemeDp.php
+Sponsor: iphonerepocenter.com <http://iphonerepocenter.com>
+dev: qbanpapi04
+Filename: debs/com.iphonerepocenter.vinylmationtheme_1.0_iphoneos-arm.deb
+
+Package: com.iphonerepocenter.vinylscratchipodmusicapptheme
+Section: Themes (Apps)
+Installed-Size: 4922
+Maintainer: hosting <hosting@iphonerepocenter.com>
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: winterboard, gsc.hidpi, firmware (>= 4.0)
+Description: from My Little Pony: Friendship is Magic.
+Author: FozzyWig <ally.bloom@hotmail.co.uk>
+Name: Vinyl Scratch Music Player Theme
+Depiction: http://moreinfo.iphonerepocenter.com/moreinfo/vinylscratchipodmusicappthemeDp.php
+Homepage: http://moreinfo.iphonerepocenter.com/moreinfo/vinylscratchipodmusicappthemeDp.php
+Sponsor: iphonerepocenter.com <http://iphonerepocenter.com>
+dev: allybloom
+Filename: debs/com.iphonerepocenter.vinylscratchipodmusicapptheme_1.2_iphoneos-arm.deb
+
+Package: com.ipr.bytafont
+Section: iOS 6 Tweaks
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Architecture: iphoneos-arm
+Version: 1.8
+Depends: firmware (>> 4.2.1), firmware (<< 7)
+Description: BytaFont lets you apply fonts to your iDevice in few taps.
+Name: BytaFont
+Depiction: http://www.iphoneruler.net/depiction/BytaFont/
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.ipr.bytafont_1.8_iphoneos-arm.deb
+
+Package: com.ipr.ios4actionmanfont
+Section: Fonts
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Architecture: iphoneos-arm
+Version: 2.2
+Depends: com.ipr.bytafont
+Description: BytaFont font by iPhoneRuler.net
+Name: Action Man Font
+Depiction: http://repo.iphoneruler.net/fontdepiction_ios4.php?Name=Action%20Man
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.ipr.ios4actionmanfont_2.2_iphoneos-arm.deb
+
+Package: com.ipr.ios4airplanesinthenightskyfont
+Section: Fonts
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Architecture: iphoneos-arm
+Version: 2.0
+Depends: com.ipr.bytafont
+Description: BytaFont font by iPhoneRuler.net
+Name: Airplanes in the Night Sky Font
+Depiction: http://repo.iphoneruler.net/fontdepiction_ios4.php?Name=Airplanes%20in%20the%20Night%20Sky
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.ipr.ios4airplanesinthenightskyfont_2.0_iphoneos-arm.deb
+
+Package: com.ipr.ios4ubuntulightfont
+Section: Fonts
+Maintainer: iPhoneRuler.net <info@iphoneruler.net>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: com.ipr.bytafont
+Description: BytaFont font by iPhoneRuler.net
+Name: Ubuntu Light Font
+Depiction: http://repo.iphoneruler.net/fontdepiction_ios4.php?Name=Ubuntu%20Light
+Author: iPhoneRuler.net <info@iphoneruler.net>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.ipr.ios4ubuntulightfont_1.0_iphoneos-arm.deb
+
+Package: com.jamied360.ncsettings
+Priority: extra
+Section: Addons (NotificationCenter)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.7.1
+Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Description: NCSettings is a sleek Notification Center toggle widget
+Name: NCSettings
+Author: JamieD360 <jamied360support@live.co.uk>
+Depiction: http://modmyi.com/info/ncsettings.d.php
+Homepage: http://modmyi.com/info/ncsettings.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+
+Package: com.macciti.snowcover
+Section: iOS 6 Tweaks
+Maintainer: MacCiti <contact@macciti.com>
+Architecture: iphoneos-arm
+Version: 2.0a
+Depends: mobilesubstrate, winterboard
+Description: Extension to display the cover-art on the lockscreen in a different way. You can use your own background and Vinyl-Cover / CD-Case images. Credits to Thyraz for creating the vinyl cover-artwork.
+Name: SnowCover
+Depiction: http://cydia.zodttd.com/repo/cydia/debs20/macciti/depiction/snowcover/index.php
+Homepage: http://www.macciti.com
+Author: Gi-lo <gi-lo@touch-mania.com>
+Filename: debs/com.macciti.snowcover_2.0a_iphoneos-arm.deb
+
+Package: com.modmyi.clearhighnotifications
+Priority: extra
+Section: Themes (Lockscreen)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.3
+Depends: winterboard
+Description: Transparent lock screen alerts.
+Name: ClearHighNotifications
+Author: jackjohnbrown <apps@jackjohnbrown.com>
+Depiction: http://modmyi.com/info/clearhighnotifications.d.php
+Homepage: http://modmyi.com/info/clearhighnotifications.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.clearhighnotifications_1.3_iphoneos-arm.deb
+
+Package: com.modmyi.iphone4clearlockscreen
+Priority: extra
+Section: Themes (Lockscreen)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 2.3
+Depends: winterboard, firmware (>= 4.0)
+Description: iPad/iPhone 4 Clear LockScreen.
+Name: Transparent Pack iOS 6.1
+Author: CoOoL_BoY <coool_boy@me.com>
+Depiction: http://modmyi.com/info/iphone4clearlockscreen.d.php
+Homepage: http://modmyi.com/info/iphone4clearlockscreen.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.iphone4clearlockscreen_2.3_iphoneos-arm.deb
+
+Package: com.modmyi.mediaplayerredone
+Section: Themes (Apps)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: winterboard
+Description: This is a recolor of the buttons on the media players.
+Name: Media Player Redone
+Author: DarthVader1 <Evilwillprevail@hotmail.com>
+Depiction: http://modmyi.com/info/mediaplayerredone.d.php
+Homepage: http://modmyi.com/info/mediaplayerredone.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.mediaplayerredone_1.0_iphoneos-arm.deb
+
+Package: com.modmyi.softremix3
+Priority: extra
+Section: Themes (SpringBoard)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: winterboard
+Description: Soft Remix 3
+Name: Soft Remix 3
+Author: MagWhiz <magwhiz@me.com>
+Depiction: http://modmyi.com/info/softremix3.d.php
+Homepage: http://modmyi.com/info/softremix3.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.softremix3_1.0_iphoneos-arm.deb
+
+Package: com.modmyi.suaveios6
+Priority: extra
+Section: Themes (SpringBoard)
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 3.0
+Depends: winterboard
+Description: Powerful iOS 6 theme for all retina devices.
+Name: Suave iOS6
+Author: D4sh <linus@holtstiege.eu>
+Depiction: http://modmyi.com/info/suaveios6.d.php
+Homepage: http://modmyi.com/info/suaveios6.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.modmyi.suaveios6_3.0_iphoneos-arm.deb
+
+Package: com.pathkiller.nccolors
+Priority: extra
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: .7-11
+Depends: mobilesubstrate, preferenceloader
+Description: Change the color of notification center background.
+Name: NCColors
+Author: PathKiller29 <appleidname@yahoo.com>
+Depiction: http://modmyi.com/info/nccolors.d.php
+Icon: file:///Library/PreferenceLoader/Preferences/NCColors@2x.png
+Homepage: http://modmyi.com/info/nccolors.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.pathkiller.nccolors_.7-11_iphoneos-arm.deb
+
+Package: com.podpod123.fbcrashfix
+Section: iOS 6 Tweaks
+Installed-Size: 108
+Maintainer: Pod
+Architecture: iphoneos-arm
+Version: 1.0-4+debug
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: A tweak that prevents the Facebook app from crashing
+Name: FBCrashFix
+Author: Pod
+Filename: debs/com.podpod123.fbcrashfix_1.0-4+debug_iphoneos-arm.deb
+
+Package: com.podpod123.fbintegrationfix
+Section: iOS 6 Tweaks
+Installed-Size: 108
+Maintainer: Pod
+Architecture: iphoneos-arm
+Version: 1.0-8+debug
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 10.3.4)
+Description: A fix for iOS's Facebook system integration
+Name: FBIntegrationFix
+Author: Pod
+Filename: debs/com.podpod123.fbintegrationfix_1.0-8+debug_iphoneos-arm.deb
+
+Package: com.rpetrich.layersnapshotter
+Section: iOS 6 Tweaks
+Installed-Size: 16
+Maintainer: thebigboss.org <http://thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0
+Depends: firmware (>= 4.3)
+Description: snapshot composite images for views & layers
+Name: LayerSnapshotter
+Author: Ryan Petrich <rpetrich+layersnapshotter@gmail.com>
+Tag: role::developer, purpose::library
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=layersnapshotterDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=layersnapshotterDp
+dev: rpetrich
+Filename: debs/com.rpetrich.layersnapshotter_1.0_iphoneos-arm.deb
+
+Package: com.rpetrich.rocketbootstrap
+Section: iOS 6 Tweaks
+Installed-Size: 596
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0.10~beta1
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Tag: purpose::extension, role::developer
+Filename: debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+
+Package: com.saurik.substrate.safemode
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 156
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.6001
+Replaces: safe-mode-fixer-ios7
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+Filename: debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+
+Package: com.skyglow.itunesstorex
+Section: iOS 6 Tweaks
+Installed-Size: 312
+Maintainer: Requis, Bag.xml
+Architecture: iphoneos-arm
+Version: 3.2
+Depends: mobilesubstrate, firmware (<= =7.9)
+Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
+Name: iTunesStoreX
+Author: Requis, Bag.xml
+Icon: file:///Library/Application%20Support/com.skyglow.itunesstorex/iTunesStoreX-Icon.png
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.itunesstorex/depictions/index.html
+Filename: debs/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+
+Package: com.skyglow.weatherx
+Section: iOS 6 Tweaks
+Maintainer: Requis
+Architecture: iphoneos-arm
+Version: 3.5
+Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
+Conflicts: com.ixmoe.1pwn.weatherx, com.skyglow.stocksx
+Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
+Name: Weather & Stocks
+Author: Requis, Electimon
+Depiction: http://cydia.skyglow.es/depictions/com.skyglow.weatherx/depictions/index.html
+Filename: debs/com.skyglow.weatherx_3.5_iphoneos-arm.deb
+
+Package: com.sull.repoicons
+Essential: yes
+Priority: required
+Section: iSystem
+Installed-Size: 291
+Maintainer: insanelyi <noreply@insanelyi.com>
+Architecture: iphoneos-arm
+Version: 1.5-18
+Replaces: com.sull.sectionicons, com.icausefx.repoicon, com.ig33kstas.repoprep, com.iosrepo.iosrepoicon, com.ihacksrepo.ihrrepoicons, com.podulo.reposetup, com.hackyouriphone.iconrepo, com.icr8zy.icr8zyrepo, com.ihacksrepo.reposetupfiles, com.hackulo.us.sourcegui, repo.biteyourapple.net.byarepoicons, com.sull.insanelyisecurity, com.ithemes.ithemes, com.bbyscroopy.repoicon
+Depends: sed
+Conflicts: com.sull.sectionicons, com.sull.insanelyisecurity
+Description: Required Setup Configuration Files.
+Name: GUI-GPG-SEC
+Depiction: http://repo.insanelyi.com/depiction.php?package=repoicons
+Author: Sull
+Sponsor: insanelyi <http://insanelyi.com>
+Filename: debs/com.sull.repoicons_1.5-18_iphoneos-arm.deb
+
+Package: com.vincenzobb.slidetomod
+Priority: extra
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: mobilesubstrate
+Description: modify your "unlock bar" writing the text that you want
+Name: SlideToMod
+Author: VincenzoBB <vincenzofreestyle@gmail.com>
+Depiction: http://modmyi.com/info/slidetomod.d.php
+Homepage: http://modmyi.com/info/slidetomod.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.vincenzobb.slidetomod_1.1_iphoneos-arm.deb
+
+Package: com.void.themeready
+Priority: extra
+Section: iOS 6 Tweaks
+Maintainer: poetic_folly <poetic_folly@modmyi.com>
+Architecture: iphoneos-arm
+Version: 0.9.1-59
+Description: ThemeReady gives you access to quick tools from your Settings menu.
+Name: ThemeReady
+Author: Milika <codylindsaygordon@gmail.com>
+Depiction: http://modmyi.com/info/themeready.d.php
+Homepage: http://modmyi.com/info/themeready.php
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/com.void.themeready_0.9.1-59_iphoneos-arm.deb
+
+Package: coreutils-bin
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 3824
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 8.12-9
+Replaces: shell-cmds (<< 118-5), coreutils (<= 7.2-9)
+Provides: dirname, kill, mktemp, su
+Description: just the /bin folder from GNU coreutils
+Name: Core Utilities (/bin)
+Homepage: http://www.gnu.org/software/coreutils/
+Filename: debs/coreutils-bin_8.12-9_iphoneos-arm.deb
+
+Package: coreutils
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 8636
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 8.12-13
+Replaces: netatalk (<= 2.0.3-6)
+Provides: md5sum, sha1sum
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+Homepage: http://www.gnu.org/software/coreutils/
+Filename: debs/coreutils_8.12-13_iphoneos-arm.deb
+
+Package: cy+cpu.arm
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0
+Description: virtual CPU dependency
+Tag: role::cydia
+Filename: debs/cy+cpu.arm_0_iphoneos-arm.deb
+
+Package: cy+kernel.darwin
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 13.0.0
+Description: virtual kernel dependency
+Tag: role::cydia
+Filename: debs/cy+kernel.darwin_13.0.0_iphoneos-arm.deb
+
+Package: cy+lib.corefoundation
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 793.00
+Description: virtual corefoundation dependency
+Tag: role::cydia
+Filename: debs/cy+lib.corefoundation_793.00_iphoneos-arm.deb
+
+Package: cy+model.iphone
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.1
+Description: virtual model dependency
+Tag: role::cydia
+Filename: debs/cy+model.iphone_4.1_iphoneos-arm.deb
+
+Package: cy+os.ios
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 6.1.3
+Description: virtual operating system dependency
+Tag: role::cydia
+Filename: debs/cy+os.ios_6.1.3_iphoneos-arm.deb
+
+Package: cydia-lproj
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 712
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.12
+Replaces: cydia, org.thebigboss.russiancydia
+Provides: org.thebigboss.russiancydia
+Depends: cydia
+Conflicts: org.thebigboss.russiancydia
+Description: languages and translations for Cydia
+Name: Cydia Translations
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia-lproj/
+Tag: purpose::uikit, cydia::essential, role::enduser
+Filename: debs/cydia-lproj_1.1.12_iphoneos-arm.deb
+
+Package: cydia
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 7160
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.30
+Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
+Provides: bigbossbetarepo, cydia-sources
+Depends: apt7-lib, apt7-key, cydia-lproj (>= 1.1.10), darwintools, debianutils, dpkg (>= 1.18), org.thebigboss.repo.icons, sed, shell-cmds, system-cmds, uikittools (>= 1.1.4)
+Pre-Depends: debianutils, dpkg (>= 1.14.25-8)
+Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, ste, yellowsn0w.com, zodttd
+Description: graphical iPhone front-end for APT
+Name: Cydia Installer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cydia/
+Icon: file:///Applications/Cydia.app/Icon-60.png
+Tag: purpose::uikit, cydia::essential, role::enduser
+Filename: debs/cydia_1.1.30_iphoneos-arm.deb
+
+Package: darwintools
+Priority: required
+Section: Administration
+Installed-Size: 136
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: startupfiletool, sw_vers
+Name: Darwin Tools
+Filename: debs/darwintools_1-5_iphoneos-arm.deb
+
+Package: debianutils
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 40
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 3.3.3ubuntu1-1p
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: pretty much just run-parts. yep? run-parts
+Name: Debian Utilities
+Filename: debs/debianutils_3.3.3ubuntu1-1p_iphoneos-arm.deb
+
+Package: diffutils
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 220
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 2.8.1-6
+Description: compare two files for differences
+Name: Diff Utilities
+Homepage: http://www.gnu.org/software/diffutils/
+Filename: debs/diffutils_2.8.1-6_iphoneos-arm.deb
+
+Package: diskdev-cmds
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 848
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 421.7-4
+Depends: firmware-sbin
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+Filename: debs/diskdev-cmds_421.7-4_iphoneos-arm.deb
+
+Package: dpkg
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 1816
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.18.10-12
+Depends: bash, bzip2, coreutils-bin, diffutils, findutils, gzip, lzma, ncurses, tar
+Pre-Depends: tar (>= 1.23)
+Description: package maintainance tools from Debian
+Name: Debian Packager
+Homepage: http://wiki.debian.org/Teams/Dpkg
+Filename: debs/dpkg_1.18.10-12_iphoneos-arm.deb
+
+Package: essential
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 12
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0-1
+Depends: cydia | com.ripdev.icy
+Pre-Depends: bootstrap | dpkg (>= 1.13.25-5)
+Description: contains nothing, represents everything
+Name: Essential
+Depiction: http://cydia.saurik.com/info/essential/
+Filename: debs/essential_0-1_iphoneos-arm.deb
+
+Package: file-cmds
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 296
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 220.7-3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: chflags, compress, ipcrm, ipcs, pax
+Filename: debs/file-cmds_220.7-3_iphoneos-arm.deb
+
+Package: findutils
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 624
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.2.33-7
+Depends: bash, sed
+Description: indexes and searches filesystems
+Name: Find Utilities
+Homepage: http://www.gnu.org/software/findutils/
+Filename: debs/findutils_4.2.33-7_iphoneos-arm.deb
+
+Package: firmware-sbin
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 36
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0-1
+Replaces: system-cmds (<= 433.4-11), diskdev-cmds (<= 421.7-3)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: represents Telesphoreo / iPhoneOS conflicts
+Name: iPhone Firmware (/sbin)
+Filename: debs/firmware-sbin_0-1_iphoneos-arm.deb
+
+Package: firmware
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 6.1.3
+Description: almost impressive Apple frameworks
+Tag: role::cydia
+Name: iOS Firmware
+Filename: debs/firmware_6.1.3_iphoneos-arm.deb
+
+Package: gawk
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 1232
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 3.1.6-2p
+Description: GNU's heavy-weight implementation of awk
+Name: Gawk
+Filename: debs/gawk_3.1.6-2p_iphoneos-arm.deb
+
+Package: gdata-objectivec-client
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 1892
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 129-1
+Depends: libxml2
+Description: GData client library (Objective-C)
+Name: Google Data APIs
+Filename: debs/gdata-objectivec-client_129-1_iphoneos-arm.deb
+
+Package: gnupg
+Priority: required
+Section: Security
+Installed-Size: 1808
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.4.8-4
+Depends: ncurses
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: older encryption compatible with OpenPGP
+Name: GNU Privacy Guard
+Homepage: http://www.gnupg.org/
+Filename: debs/gnupg_1.4.8-4_iphoneos-arm.deb
+
+Package: grep
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 444
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 2.5.4-3
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: searches files for regular expressions
+Homepage: http://www.gnu.org/software/grep/
+Filename: debs/grep_2.5.4-3_iphoneos-arm.deb
+
+Package: gsc.3-gvenice
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.3-gvenice_1_iphoneos-arm.deb
+
+Package: gsc.720p
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.720p_1_iphoneos-arm.deb
+
+Package: gsc.accelerometer
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.accelerometer_1_iphoneos-arm.deb
+
+Package: gsc.accessibility
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.accessibility_1_iphoneos-arm.deb
+
+Package: gsc.additional-text-tones
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.additional-text-tones_1_iphoneos-arm.deb
+
+Package: gsc.all-features
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.all-features_1_iphoneos-arm.deb
+
+Package: gsc.ambient-light-sensor
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.ambient-light-sensor_1_iphoneos-arm.deb
+
+Package: gsc.any-telephony
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.any-telephony_1_iphoneos-arm.deb
+
+Package: gsc.app-store
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.app-store_1_iphoneos-arm.deb
+
+Package: gsc.application-installation
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.application-installation_1_iphoneos-arm.deb
+
+Package: gsc.armv6
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.armv6_1_iphoneos-arm.deb
+
+Package: gsc.armv7
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.armv7_1_iphoneos-arm.deb
+
+Package: gsc.assistant
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.assistant_1_iphoneos-arm.deb
+
+Package: gsc.auto-focus-camera
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.auto-focus-camera_1_iphoneos-arm.deb
+
+Package: gsc.bluetooth-le
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.bluetooth-le_1_iphoneos-arm.deb
+
+Package: gsc.bluetooth
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.bluetooth_1_iphoneos-arm.deb
+
+Package: gsc.camera-flash
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.camera-flash_1_iphoneos-arm.deb
+
+Package: gsc.cellular-data
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.cellular-data_1_iphoneos-arm.deb
+
+Package: gsc.contains-cellular-radio
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.contains-cellular-radio_1_iphoneos-arm.deb
+
+Package: gsc.dictation
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.dictation_1_iphoneos-arm.deb
+
+Package: gsc.display-mirroring
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.display-mirroring_1_iphoneos-arm.deb
+
+Package: gsc.displayport
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.displayport_1_iphoneos-arm.deb
+
+Package: gsc.encode-aac
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.encode-aac_1_iphoneos-arm.deb
+
+Package: gsc.encrypted-data-partition
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.encrypted-data-partition_1_iphoneos-arm.deb
+
+Package: gsc.fcc-logos-via-software
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.fcc-logos-via-software_1_iphoneos-arm.deb
+
+Package: gsc.front-facing-camera
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.front-facing-camera_1_iphoneos-arm.deb
+
+Package: gsc.full-6
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.full-6_1_iphoneos-arm.deb
+
+Package: gsc.gamekit
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.gamekit_1_iphoneos-arm.deb
+
+Package: gsc.gas-gauge-battery
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.gas-gauge-battery_1_iphoneos-arm.deb
+
+Package: gsc.gps
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.gps_1_iphoneos-arm.deb
+
+Package: gsc.gyroscope
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.gyroscope_1_iphoneos-arm.deb
+
+Package: gsc.h264-encoder
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.h264-encoder_1_iphoneos-arm.deb
+
+Package: gsc.hardware-keyboard
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hardware-keyboard_1_iphoneos-arm.deb
+
+Package: gsc.hd-video-capture
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hd-video-capture_1_iphoneos-arm.deb
+
+Package: gsc.hdr-image-capture
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hdr-image-capture_1_iphoneos-arm.deb
+
+Package: gsc.hearingaid-audio-equalization
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hearingaid-audio-equalization_1_iphoneos-arm.deb
+
+Package: gsc.hearingaid-low-energy-audio
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hearingaid-low-energy-audio_1_iphoneos-arm.deb
+
+Package: gsc.hidpi
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hidpi_1_iphoneos-arm.deb
+
+Package: gsc.homescreen-wallpaper
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.homescreen-wallpaper_1_iphoneos-arm.deb
+
+Package: gsc.hw-encode-snapshots
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.hw-encode-snapshots_1_iphoneos-arm.deb
+
+Package: gsc.international-settings
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.international-settings_1_iphoneos-arm.deb
+
+Package: gsc.io-surface-backed-images
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.io-surface-backed-images_1_iphoneos-arm.deb
+
+Package: gsc.load-thumbnails-while-scrolling
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.load-thumbnails-while-scrolling_1_iphoneos-arm.deb
+
+Package: gsc.location-reminders
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.location-reminders_1_iphoneos-arm.deb
+
+Package: gsc.location-services
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.location-services_1_iphoneos-arm.deb
+
+Package: gsc.magnetometer
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.magnetometer_1_iphoneos-arm.deb
+
+Package: gsc.microphone
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.microphone_1_iphoneos-arm.deb
+
+Package: gsc.mms
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.mms_1_iphoneos-arm.deb
+
+Package: gsc.multitasking
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.multitasking_1_iphoneos-arm.deb
+
+Package: gsc.music-store
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.music-store_1_iphoneos-arm.deb
+
+Package: gsc.nike-ipod
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.nike-ipod_1_iphoneos-arm.deb
+
+Package: gsc.not-green-tea
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.not-green-tea_1_iphoneos-arm.deb
+
+Package: gsc.opengles-1
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.opengles-1_1_iphoneos-arm.deb
+
+Package: gsc.opengles-2
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.opengles-2_1_iphoneos-arm.deb
+
+Package: gsc.peer-peer
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.peer-peer_1_iphoneos-arm.deb
+
+Package: gsc.personal-hotspot
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.personal-hotspot_1_iphoneos-arm.deb
+
+Package: gsc.photo-adjustments
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.photo-adjustments_1_iphoneos-arm.deb
+
+Package: gsc.photo-stream
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.photo-stream_1_iphoneos-arm.deb
+
+Package: gsc.proximity-sensor
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.proximity-sensor_1_iphoneos-arm.deb
+
+Package: gsc.ptp-large-files
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.ptp-large-files_1_iphoneos-arm.deb
+
+Package: gsc.rear-facing-camera
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.rear-facing-camera_1_iphoneos-arm.deb
+
+Package: gsc.ringer-switch
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.ringer-switch_1_iphoneos-arm.deb
+
+Package: gsc.shoebox
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.shoebox_1_iphoneos-arm.deb
+
+Package: gsc.siri-gesture
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.siri-gesture_1_iphoneos-arm.deb
+
+Package: gsc.sms
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.sms_1_iphoneos-arm.deb
+
+Package: gsc.stand-alone-contacts
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.stand-alone-contacts_1_iphoneos-arm.deb
+
+Package: gsc.still-camera
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.still-camera_1_iphoneos-arm.deb
+
+Package: gsc.telephony
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.telephony_1_iphoneos-arm.deb
+
+Package: gsc.tv-out-crossfade
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.tv-out-crossfade_1_iphoneos-arm.deb
+
+Package: gsc.unified-ipod
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.unified-ipod_1_iphoneos-arm.deb
+
+Package: gsc.venice
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.venice_1_iphoneos-arm.deb
+
+Package: gsc.video-camera
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.video-camera_1_iphoneos-arm.deb
+
+Package: gsc.voice-control
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.voice-control_1_iphoneos-arm.deb
+
+Package: gsc.voip
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.voip_1_iphoneos-arm.deb
+
+Package: gsc.volume-buttons
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.volume-buttons_1_iphoneos-arm.deb
+
+Package: gsc.wifi
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.wifi_1_iphoneos-arm.deb
+
+Package: gsc.youtube-plugin
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.youtube-plugin_1_iphoneos-arm.deb
+
+Package: gsc.youtube
+Essential: yes
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 0
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1
+Description: virtual GraphicsServices dependency
+Tag: role::cydia
+Filename: debs/gsc.youtube_1_iphoneos-arm.deb
+
+Package: gsmicon
+Essential: yes
+Priority: required
+Section: !CydiaVn-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 4.0-2
+Description: Icon cho Cydia.vn source!
+Name: Cydia.vn Icon
+Author: Cydia.vn <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t96/
+Homepage: http://cydia.vn/
+Filename: debs/gsmicon_4.0-2_iphoneos-arm.deb
+
+Package: gzip
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 256
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.6-7
+Depends: grep, sed
+Description: the standard Unix compression algorithm
+Homepage: http://www.gzip.org/
+Filename: debs/gzip_1.6-7_iphoneos-arm.deb
+
+Package: libactivator
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 5060
+Maintainer: Ryan Petrich <rpetrich+activator@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.9.13
+Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.16~rc3), com.rpetrich.rocketbootstrap (>= 1.0.9)
+Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
+Description: Centralized gestures, button and shortcut management for iOS
+Name: Activator
+Homepage: https://rpetrich.com/cydia/activator/
+Depiction: https://rpetrich.com/cydia/activator/
+Author: Ryan Petrich <rpetrich+activator@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+Icon: file:///Applications/Activator.app/Icon-Small-modern@2x.png
+Filename: debs/libactivator_1.9.13_iphoneos-arm.deb
+
+Package: libhide
+Section: iOS 6 Tweaks
+Installed-Size: 232
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 2.4.1-1
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: Library to hide icons.
+Name: libhide
+http: //moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libhideDp
+Author: BigBoss <bigboss@thebigboss.org>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: bigboss
+Tag: role::developer, purpose::library
+Filename: debs/libhide_2.4.1-1_iphoneos-arm.deb
+
+Package: libstatusbar
+Section: iOS 6 Tweaks
+Installed-Size: 184
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1:0.9.9.0-1
+Depends: mobilesubstrate, firmware (>= 4.0), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatusbarData
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatusbarData
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Name: libstatusbar
+dev: phoenix
+Tag: purpose::extension, role::developer
+Filename: debs/libstatusbar_0.9.9.0-1_iphoneos-arm.deb
+
+Package: libxml2-lib
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 24
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 2.6.32-3
+Replaces: libxml2 (<= 2.6.32-5)
+Depends: firmware (>= 3.0) | libxml2-dylib
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: represents the library for libxml2
+Name: libxml2 Library
+Filename: debs/libxml2-lib_2.6.32-3_iphoneos-arm.deb
+
+Package: libxml2
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 712
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 2.6.32-7
+Depends: libxml2-lib
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: very popular XML parser from Gnome
+Name: libxml2
+Homepage: http://xmlsoft.org/
+Depiction: http://cydia.saurik.com/info/libxml2/
+Filename: debs/libxml2_2.6.32-7_iphoneos-arm.deb
+
+Package: lzma
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 396
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.32.7-5
+Depends: grep, sed
+Description: slower, but better, compression algorithm
+Name: LZMA Utils
+Homepage: http://tukaani.org/lzma/
+Filename: debs/lzma_4.32.7-5_iphoneos-arm.deb
+
+Package: mobilesubstrate
+Priority: optional
+Section: iOS 6 Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.6301
+Replaces: cycript (<= 0.9.594)
+Depends: com.saurik.substrate.safemode
+Pre-Depends: dpkg (>= 1.14.25-8)
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Filename: debs/mobilesubstrate_0.9.6301_iphoneos-arm.deb
+
+Package: moe.yzu.veterishelper
+Section: iOS 6 Tweaks
+Installed-Size: 124
+Maintainer: Stella Diaz (electimon)
+Architecture: iphoneos-arm
+Version: 1.0.0-53+debug
+Depends: mobilesubstrate
+Description: An awesome MobileSubstrate tweak!
+Name: Veteris Helper
+Author: Stella Diaz (electimon
+Filename: debs/moe.yzu.veterishelper_1.0.0-53+debug_iphoneos-arm.deb
+
+Package: ncurses
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 3296
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 5.7-15
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: feature-complete terminal library
+Name: New Curses
+Filename: debs/ncurses_5.7-15_iphoneos-arm.deb
+
+Package: net.nekokawa.appstorefix
+Section: iOS 6 Tweaks
+Installed-Size: 264
+Maintainer: nekokawa
+Architecture: iphoneos-arm
+Version: 0.3.5-4+debug
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
+Description: Fix AppStore SSL connection(only iOS 6!)
+Name: StoreSSLFix
+Author: nekokawa
+Filename: debs/net.nekokawa.appstorefix_0.3.5-4+debug_iphoneos-arm.deb
+
+Package: net.nekokawa.sendanywherex
+Section: iOS 6 Tweaks
+Installed-Size: 72
+Maintainer: nekokawa
+Architecture: iphoneos-arm
+Version: 0.0.1-1+debug
+Depends: mobilesubstrate (>= 0.9.5000)
+Description: Killing SendAnywhere update alerts
+Name: SendAnywhereX
+Author: nekokawa
+Filename: debs/net.nekokawa.sendanywherex_0.0.1-1+debug_iphoneos-arm.deb
+
+Package: openssl
+Priority: standard
+Section: Security
+Installed-Size: 6164
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.8zg-13
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+Filename: debs/openssl_0.9.8zg-13_iphoneos-arm.deb
+
+Package: org.altervista.exilecom.icleaner
+Section: iOS 6 Tweaks
+Installed-Size: 8217
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 7.10.0
+Pre-Depends: firmware (>= 4.0), apt | apt7, findutils
+Description: The first real iOS system cleanup and management utility
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner
+dev: exilecom
+Tag: purpose::uikit
+Icon: file:///Applications/iCleaner.app/Icon.png
+Filename: debs/org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
+
+Package: org.neutronfile.icons
+Essential: yes
+Priority: required
+Section: Repositories
+Maintainer: MeutronFile <neutronfile19@gmail.com>
+Architecture: all
+Multi-Arch: foreign
+Version: 1.1
+Replaces: cydia
+Description: locally cached package icons from NeutronFile's Repo
+Author: elhizazi1 <elhizazi1@gmail.com>
+Sponsor: NeutronFile.org <https://neutronfile.org>
+Homepage: https://apt.neutronfile.org/
+Name: NeutronFile Icon Set
+Filename: debs/org.neutronfile.icons_1.1_all.deb
+
+Package: org.neutronfile.redeb
+Section: iOS 6 Tweaks
+Maintainer: NeutronFile <neutronfile19@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.0.4E
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
+Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :) not worck white sileo.
+Homepage: https://neutronfile.org
+Twitter: @NeutronFile <https://twitter.com/NeutronFile/>
+Donate: https://paypal.me/Elhizazi
+Sponsor: NeutronFile.org <http://neutronfile.org/>
+Name: redeb
+Depiction: https://apt.neutronfile.org/description.html?id=org.neutronfile.redeb
+Author: NeutronFile <neutronfile19@gmail.com>
+Filename: debs/org.neutronfile.redeb_1.0.4E_iphoneos-arm.deb
+
+Package: org.thebigboss.auxo
+Section: iOS 6 Tweaks
+Installed-Size: 2127
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.4-2
+Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
+Description: A fantastic re-imagined multitasking bar!
+Author: A3tweaks <A3tweaks@gmail.com>
+Name: Auxo
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: a3tweaks
+Tag: cydia::commercial, purpose::extension
+Icon: file:///Library/PreferenceLoader/Preferences/AuxoIcon@2x.png
+Filename: debs/org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
+
+Package: org.thebigboss.repo.icons
+Priority: optional
+Section: Repositories
+Installed-Size: 48
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.0
+Replaces: cydia, bigboss
+Description: locally cached package icons from BigBoss
+Name: BigBoss Icon Set
+Filename: debs/org.thebigboss.repo.icons_1.0_iphoneos-arm.deb
+
+Package: org.thebigboss.snowcoversimple
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 1420
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: mobilesubstrate, firmware (>= 4.0)
+Description: Beautify your lockscreen with album artwork
+Name: Snow Cover Simple
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snowcoversimpleDp
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snowcoversimpleDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Giulio Petek <gi-lo@touch-mania.com>
+Tag: purpose::extension
+dev: gilo
+Filename: debs/org.thebigboss.snowcoversimple_1.2_iphoneos-arm.deb
+
+Package: p7zip
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 9080
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 16.02-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+Filename: debs/p7zip_16.02-1_iphoneos-arm.deb
+
+Package: pam-modules
+Priority: standard
+Section: Administration
+Installed-Size: 136
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 36.1-5
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: standard Apple authentication modules
+Name: PAM Modules
+Filename: debs/pam-modules_36.1-5_iphoneos-arm.deb
+
+Package: pam
+Priority: standard
+Section: Administration
+Installed-Size: 576
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 32.1-4
+Depends: pam-modules
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: pluggable (comples) authentication modules
+Name: PAM (Apple)
+Filename: debs/pam_32.1-4_iphoneos-arm.deb
+
+Package: pcre
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 632
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 8.30-6
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: Perl-compatible regular expressions
+Filename: debs/pcre_8.30-6_iphoneos-arm.deb
+
+Package: pincrush
+Section: iOS 6 Tweaks
+Installed-Size: 124
+Maintainer: Dustin Howett <dustin@howett.net>
+Architecture: iphoneos-arm
+Version: 0.9.2-1
+Description: optimize PNGs just like Apple does
+ pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
+Name: pincrush
+Author: Dustin Howett <dustin@howett.net>
+Homepage: http://howett.net/pincrush
+Tag: purpose::console, role::hacker
+Filename: debs/pincrush_0.9.2-1_iphoneos-arm.deb
+
+Package: preferenceloader
+Section: iOS 6 Tweaks
+Installed-Size: 526
+Maintainer: Biện Văn Nhật
+Architecture: iphoneos-arm
+Version: 2.2.7
+Depends: mobilesubstrate
+Conflicts: ru.rj.meredith, org.mr.meredith, org.mr.smartvolumemixer2, org.mr.smartvolumecontrol3, ru.rj.smartvolumemixer2, ru.rj.smartvolumecontrol3, ru.rj.appdatamanager, org.mr.multipla, org.mr.autotouch, github.io.gfp.veloxreloaded, github.io.gfp.veza, github.io.gfp.indy, github.io.gfp.aperio, org.mr.dra1n, org.mr.fabric2, ru.rj.fabric2, org.mr.filza, ru.rj.veloxreloaded, org.mr.veloxreloaded, org.mr.veza, ru.rj.veza, org.mr.indy, ru.rj.indy, org.mr.safeshutdownn
+Description: load preferences in style
+Name: PreferenceLoader
+Author: Sam Bingner <maintainer@sbdhi.com>
+Icon: file:///Applications/Cydia.app/Sections/hethongg1.png
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Filename: debs/preferenceloader_2.2.7_iphoneos-arm.deb
+
+Package: profile.d
+Priority: standard
+Section: Administration
+Installed-Size: 28
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0-2
+Depends: bash
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: makes packaging for /etc/profile reasonable
+Name: Profile Directory
+Filename: debs/profile.d_0-2_iphoneos-arm.deb
+
+Package: readline
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 364
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 6.0-8
+Depends: ncurses
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: command-line history management
+Filename: debs/readline_6.0-8_iphoneos-arm.deb
+
+Package: saurik
+Essential: yes
+Priority: required
+Section: Repositories
+Installed-Size: 68
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0-4
+Replaces: cydia (<< 1.0.2908-52)
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: Jay Freeman (saurik)'s APT repository
+Name: Saurik's Source
+Filename: debs/saurik_0-4_iphoneos-arm.deb
+
+Package: sed
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 180
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 4.1.5-8
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: edits streams of text using patterns
+Homepage: http://www.gnu.org/software/sed/
+Filename: debs/sed_4.1.5-8_iphoneos-arm.deb
+
+Package: shell-cmds
+Priority: important
+Section: Administration
+Installed-Size: 300
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 118-7
+Provides: killall, which
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: killall, mktemp, renice, time, which
+Filename: debs/shell-cmds_118-7_iphoneos-arm.deb
+
+Package: sqlite3-lib
+Priority: standard
+Section: iOS 6 Tweaks
+Installed-Size: 12
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 3.5.9-2
+Depends: firmware (>= 3.0) | sqlite3-dylib
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: represents the library for SQLite
+Name: SQLite 3.x Library
+Filename: debs/sqlite3-lib_3.5.9-2_iphoneos-arm.deb
+
+Package: system-cmds
+Essential: yes
+Priority: required
+Section: Administration
+Installed-Size: 1416
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 433.8-14
+Provides: login, passwd, reboot
+Depends: pam, firmware-sbin
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: iostat, login, passwd, sync, sysctl
+Filename: debs/system-cmds_433.8-14_iphoneos-arm.deb
+
+Package: tar
+Priority: required
+Section: iOS 6 Tweaks
+Installed-Size: 548
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.29-10
+Depends: bzip2, gzip, lzma
+Description: tool for making tape archives
+Name: Tape Archive
+Homepage: http://www.gnu.org/software/tar/
+Filename: debs/tar_1.29-10_iphoneos-arm.deb
+
+Package: tomkids.chatgpt
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 31.0.2-5
+Description: Chat GPT app for Low iOS
+Name: ChatGPT
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/chatgpt.png
+Filename: debs/tomkids.chatgpt_31.0.2-5_iphoneos-arm.deb
+
+Package: tomkids.facebook
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 11.0-5
+Description: FaceBook app for Low iOS
+Name: FaceBook
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/facebook.png
+Filename: debs/tomkids.facebook_11.0-5_iphoneos-arm.deb
+
+Package: tomkids.flacplayer
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 1.8
+Depends: firmware (<= 9.0)
+Description: FLAC Player app for Low iOS
+Name: FLAC Player
+Author: Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/flacplayer.png
+Filename: debs/tomkids.flacplayer_1.8_iphoneos-arm.deb
+
+Package: tomkids.foobar2000
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 1.0.33
+Depends: firmware (<= 9.0)
+Description: Foobar2000 app for Low iOS
+Name: Foobar2000
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/foobar2000.png
+Filename: debs/tomkids.foobar2000_1.0.33_iphoneos-arm.deb
+
+Package: tomkids.ibooks.ipa
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 3.1.3
+Depends: firmware (<= 9.0)
+Description: Copy iBooks IPA to /var/mobile/Media/Downloads
+Name: iBooks IPA
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/ibooks.png8
+Filename: debs/tomkids.ibooks.ipa_3.1.3_iphoneos-arm.deb
+
+Package: tomkids.nhaccuatui
+Section: Applications
+Maintainer: Tomkids
+Architecture: iphoneos-arm
+Version: 5.3.1
+Depends: firmware (<= 9.0)
+Description: Nhạc của tui cho IOS thấp
+Name: NhacCuaTui
+Author: Tomkids
+Icon: https://tomkidss.github.io/cydia/icons/nhaccuatui.png
+Filename: debs/tomkids.nhaccuatui_5.3.1_iphoneos-arm.deb
+
+Package: tomkids.ticktok-ios6
+Section: Applications
+Maintainer: Clone by Tomkids
+Architecture: iphoneos-arm
+Version: 2.0-5
+Description: TikTok app for Low iOS
+Name: TikTok
+Author: TikTok
+Icon: http://tomkidss.github.io/cydia/icons/tiktokios6.png
+Filename: debs/tomkids.ticktok-ios6_2.0-5_iphoneos-arm.deb
+
+Package: tomkids.zingmp3
+Section: Applications
+Maintainer: Zing
+Architecture: iphoneos-arm
+Version: 3.2.1-5
+Description: App Zing MP3
+Name: Zing MP3
+Author: Build app to tweak by Tomkids
+Icon: http://tomkidss.github.io/cydia/icons/zingmp3.png
+Filename: debs/tomkids.zingmp3_3.2.1-5_iphoneos-arm.deb
+
+Package: uikittools
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 944
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 1.1.12
+Depends: coreutils-bin, firmware (<< 8.3) | com.saurik.patcyh
+Description: UIKit/GraphicsServices command line access
+Name: UIKit Tools
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/uikittools/
+Tag: purpose::console, role::hacker
+Filename: debs/uikittools_1.1.12_iphoneos-arm.deb
+
+Package: uk.invoxiplaygames.checkmatestore
+Section: iOS 6 Tweaks
+Installed-Size: 164
+Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Architecture: iphoneos-arm
+Version: 1.2
+Depends: mobilesubstrate, firmware (>= 2.0)
+Description: Disable capability limits in the App Store.
+Name: Checkmate, Store!
+Depiction: http://cydia.invoxiplaygames.uk/dp/checkmatestore.php
+Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
+Filename: debs/uk.invoxiplaygames.checkmatestore_1.2_iphoneos-arm.deb
+
+Package: unrar
+Priority: optional
+Section: iOS 6 Tweaks
+Installed-Size: 736
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Multi-Arch: foreign
+Version: 5.6.4-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: de-compresses files in rar format
+Homepage: http://www.rarlab.com/rar_add.htm
+Filename: debs/unrar_5.6.4-1_iphoneos-arm.deb
+
+Package: unzip
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 808
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 6.0+deb9u1-1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: de-compesses files in zip format
+Filename: debs/unzip_6.0+deb9u1-1_iphoneos-arm.deb
+
+Package: us.hackphone.barrel
+Section: iOS 6 Tweaks
+Maintainer: Aqua Sta <trong@hackphone.us>
+Architecture: iphoneos-arm
+Version: 1.6.1-1
+Depends: firmware (>= 3.0), mobilesubstrate, preferenceloader, libhide
+Conflicts: net.limneos.sbrotator (<= 2.1.5), com.aaronash.barrel, vn.gsm.barrel, com.heaveniphone.barrel, net.vnmagic.barrel
+Description: Hiệu ứng 3D cho các trang biểu tượng màn hình chủ
+Author: Aaron Ash (Charybdis) <support@multifl0w.com>
+Name: Barrel Việt hóa
+Sponsor: Hackphone.us <http://hackphone.us/vi/news/Cydia/Viet-hoa-Barrel-v1-5-9-2-Thay-doi-hieu-ung-chuyen-trang-cuc-dep-cho-SpringBoard-827/>
+Icon: file:///Library/PreferenceBundles/threedeeprefs.bundle/threedeeprefs@2x.png
+Filename: debs/us.hackphone.barrel_1.6.1-1_iphoneos-arm.deb
+
+Package: us.hackphone.ifile
+Section: iOS 6 Tweaks
+Maintainer: Aqua Sta <trong@hackphone.us>
+Architecture: iphoneos-arm
+Version: 1.7.2-2
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Conflicts: vn.gsm.ifile, com.heaveniphone.ifile, eu.heinelt.ifile
+Description: Chương trình Quản lý tập tin và duyệt các định dạng tài liệu. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
+Name: iFile Việt hóa
+Homepage: http://hackphone.us
+Depiction: http://hackphone.us/depictions/ifile
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+Icon: file:///Applications/iFile.app/Icon.png
+Sponsor: Hackphone.us <http://hackphone.us/vi/news/Cydia/iFile-161-1-Ung-dung-quan-ly-tap-tin-cho-iOS-270/>
+Filename: debs/us.hackphone.ifile_1.7.2-2_iphoneos-arm.deb
+
+Package: us.scw.afctwoadd
+Section: iOS 6 Tweaks
+Maintainer: NetMage <scw@scw.us>
+Architecture: iphoneos-arm
+Version: 1.01
+Depends: com.ericasadun.utilities
+Description: Package to add afc2 service for USB browsing of filesystem. Adds the afc2 service and reboots the phone, to fix issues for folks unable to use USB browsers (like iPhoneBrowser) with blackra1n.
+Name: afc2add
+Depiction: http://modmyi.com/info/afctwoadd.d.php
+Homepage: http://modmyi.com/info/afctwoadd.php
+Author: NetMage <scw@scw.us>
+Sponsor: ModMyi.com <http://modmyi.com/forums/index.php?styleid=31>
+Filename: debs/us.scw.afctwoadd_1.01_iphoneos-arm.deb
+
+Package: vn.dinhle.tweaks.saybye
+Section: iOS 6 Tweaks
+Installed-Size: 256
+Maintainer: TomKids
+Architecture: iphoneos-arm
+Version: 2.0.0-1+debug
+Depends: mobilesubstrate, preferenceloader
+Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
+Name: Đình Lê Say Bye
+Author: TomKids
+Filename: debs/vn.dinhle.tweaks.saybye_2.0.0-1+debug_iphoneos-arm.deb
+
+Package: vn.gsm.0bscure7
+Section: !CydiaVn-Themes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.5.0
+Depends: winterboard
+Description: This is a theme that will make you enjoy your SpringBoard (again!)
+Name: 0bscure 7
+Author: TheStudent
+Homepage: http://cydia.vn/
+Depiction: http://cydia.vn/depic/t5244/
+Filename: debs/vn.gsm.0bscure7_1.5.0_iphoneos-arm.deb
+
+Package: vn.gsm.2x2foldericons
+Section: !GSMVN-Tweaks
+Installed-Size: 41
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.0-1
+Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
+Description: 2x2 Folder Icons for ayecon benchmark iOS theme.
+Author: Surenix <repo@cydia.vn>
+Name: 2x2 Folder Icons
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t4011/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.2x2foldericons_1.0-1_iphoneos-arm.deb
+
+Package: vn.gsm.aelon
+Section: !CydiaVn-Themes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 2.3.7
+Depends: winterboard
+Description: Transparency on iOS just got Better.
+Name: Aelon
+Author: Costo Tech
+Depiction: http://cydia.vn/depic/t5651/
+Filename: debs/vn.gsm.aelon_2.3.7_iphoneos-arm.deb
+
+Package: vn.gsm.afterosre
+Section: !CydiaVn-Themes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.0.4
+Depends: gsmicon, winterboard
+Description: An awesome theme for your device.
+Name: AfterOS Re
+Author: Rene Daniel
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t4663/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.afterosre_1.0.4_iphoneos-arm.deb
+
+Package: vn.gsm.ayecon
+Section: !GSMVN-Themes
+Installed-Size: 37000
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.3.5
+Depends: gsmicon, firmware (>= 4.0), winterboard, vn.gsm.2x2foldericons
+Description: A benchmark iOS theme.
+Name: ayecon
+Author: Surenix
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t2890/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.ayecon_1.3.5_iphoneos-arm.deb
+
+Package: vn.gsm.colorgasmhd
+Section: !GSMVN-Themes
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Architecture: iphoneos-arm
+Version: 1.15
+Depends: winterboard, gsmicon
+Description: Colorgasm HD, colorful and attractive theme crafted in true high-definition.
+Name: Colorgasm HD
+Author: minhque <support@gsm.vn>
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+Depiction: http://cydia.gsm.vn/t1271/
+Homepage: http://iphone.gsm.vn/
+Filename: debs/vn.gsm.colorgasmhd_1.15_iphoneos-arm.deb
+
+Package: vn.gsm.displayrecorder
+Section: !CydiaVn-Apps
+Installed-Size: 2464
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.3.20K
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
+Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
+Homepage: http://cydia.vn/
+Author: Ryan Petrich <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t971/
+Name: Display Recorder
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Filename: debs/vn.gsm.displayrecorder_1.3.20K_iphoneos-arm.deb
+
+Package: vn.gsm.flipclockwidget
+Section: !GSMVN-Tools
+Installed-Size: 2919
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.3.3-3
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
+Description: beautiful animated flip clock widget for the notification center.
+Name: Flip Clock for Notification Center
+Author: VladMax Soft
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t4132/
+Homepage: http://cydia.vn/
+Icon: file:///Library/PreferenceBundles/FlipClockWidgetPrefs.bundle/fcprefs2@2x.png
+Filename: debs/vn.gsm.flipclockwidget_1.3.3-3_iphoneos-arm.deb
+
+Package: vn.gsm.iclassic
+Section: !GSMVN-Apps
+Installed-Size: 532
+Maintainer: Thieu.Bocap <support@gsm.vn>
+Architecture: iphoneos-arm
+Version: 1.5
+Depends: gsmicon
+Description: Giả lập iPod chơi nhạc trên iPhone / iPod Touch!
+Name: iClassic
+Author: Pelaez <me@epelaez.net>
+Icon: file:///Applications/iClassic.app/Icon.png
+Homepage: http://iphone.gsm.vn/
+Depiction: http://cydia.gsm.vn/t603/
+Sponsor: iPhone GSM.VN <http://gsm.vn/f339/>
+Filename: debs/vn.gsm.iclassic_1.5_iphoneos-arm.deb
+
+Package: vn.gsm.ioptimizeurbattery
+Section: !GSMVN-Tools
+Installed-Size: 1322
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 2.0.1
+Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, libstatusbar
+Description: clever efficient power management system
+Name: BattSaver
+Author: Xvolks <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t3226/
+Homepage: http://cydia.vn/
+Icon: file:///Applications/BattSaver.app/Icon.png
+Filename: debs/vn.gsm.ioptimizeurbattery_2.0.1_iphoneos-arm.deb
+
+Package: vn.gsm.ios86
+Priority: extra
+Section: !GSMVN-Themes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.2.3
+Depends: gsmicon, winterboard, com.void.themeready, com.ipr.bytafont
+Description: iOS'86 consists of months of work and over 1,200 graphic
+Name: iOS'86
+Author: Cody-lg
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t4316/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.ios86_1.2.3_iphoneos-arm.deb
+
+Package: vn.gsm.jukebox
+Section: !GSMVN-Tools
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 1.6.3
+Depends: gsmicon, firmware (>= 5.0), com.arichardson.weepreferenceloader, com.chpwn.weeloader
+Description: Control your music from the NC.
+Name: Jukebox
+Author: aricha
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.gsm.vn/t2863/
+Homepage: http://cydia.vn/
+Icon: file:///Library/WeeLoader/Plugins/Jukebox.bundle/MusicAppIcon.png
+Filename: debs/vn.gsm.jukebox_1.6.3_iphoneos-arm.deb
+
+Package: vn.gsm.mobileterminal
+Priority: standard
+Section: !CydiaVn-Tools
+Installed-Size: 696
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 520-5
+Depends: firmware (>= 4.0), system-cmds
+Conflicts: mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7, net.angelxwind.mobileterminal-applesdk, com.officialscheduler.mterminal
+Description: A Terminal emulator for iOS
+ This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
+Homepage: http://code.google.com/p/mobileterminal/
+Author: Allen Porter <repo@cydia.vn>
+Depiction: http://cydia.vn/depic/t60/
+Icon: file:///Applications/Terminal.app/Icon29x29@2x.png
+Name: MobileTerminal
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Filename: debs/vn.gsm.mobileterminal_520-5_iphoneos-arm.deb
+
+Package: vn.gsm.soft
+Section: !CydiaVn-Themes
+Maintainer: Cydia.vn <repo@cydia.vn>
+Architecture: iphoneos-arm
+Version: 2.0.2
+Depends: winterboard
+Description: A new experience for iOS 7
+Name: Soft
+Author: chrisiyg <repo@cydia.vn>
+Sponsor: Cydia.vn Blog's <http://cydia.vn/>
+Depiction: http://cydia.vn/depic/t5164/
+Homepage: http://cydia.vn/
+Filename: debs/vn.gsm.soft_2.0.2_iphoneos-arm.deb
+
+Package: vn.tomkids.tweaks.ncmusicpanel
+Section: iOS 6 Tweaks
+Installed-Size: 2896
+Maintainer: TomKids
+Architecture: iphoneos-arm
+Version: 3.2.0-2+debug
+Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0)
+Description: SpringBoard Notification Center style music panel for iOS 5-6 with artwork, controls and preferences.
+Name: Tomkids NC Music
+Author: TomKids
+Filename: debs/vn.tomkids.tweaks.ncmusicpanel_3.2.0-2+debug_iphoneos-arm.deb
+
+Package: winterboard
+Priority: optional
+Section: iOS 6 Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 0.9.3919
+Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Provides: theme-manager
+Depends: mobilesubstrate (>= 0.9.3225-1), killall, preferenceloader, findutils, net.howett.pincrush (>= 0.0.1-23) | pincrush
+Pre-Depends: dpkg (>= 1.13.25-5)
+Breaks: jp.ashikase.folderenhancer (<< 1.6.0.2-1)
+Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
+Description: theme manager, used by most themes
+Name: WinterBoard
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/winterboard/
+Homepage: http://www.saurik.com/id/9
+Filename: debs/winterboard_0.9.3919_iphoneos-arm.deb
+
+Package: zip
+Priority: important
+Section: iOS 6 Tweaks
+Installed-Size: 368
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Architecture: iphoneos-arm
+Version: 2.32-6
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: standard Windows compression tool
+Filename: debs/zip_2.32-6_iphoneos-arm.deb
