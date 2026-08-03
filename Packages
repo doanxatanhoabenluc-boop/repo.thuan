@@ -8,9 +8,9 @@ Author: Ryan Petrich <rpetrich@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3), preferenceloader (>= 2.2.2), cydia (>= 1.1.1), com.rpetrich.rocketbootstrap (>= 1.0.3) | firmware (<< 7.0)
 Conflicts: actionmenu-pluspack (<< 1.2)
 Description: Adds actions to the action menu
-Filename: ./actionmenu_1.4.1_iphoneos-arm.deb
+Filename: ./debs/actionmenu_1.4.1_iphoneos-arm.deb
 Size: 438442
-Installed-Size: 438442
+Installed-Size: 1540
 MD5sum: bfedf171def7854ba75f6d9b567ab672
 SHA1: 849e03edf5afc37130e5b687d105d1fdc0b5d00e
 SHA256: ab07930db392d0560c3e41ecce3ad7d01066077b64ad7b1840ebd4da12025c3c
@@ -29,9 +29,9 @@ Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.ap
 Provides: appsync, net.angelxwind.appsyncunified
 Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
 Description: Cho phép khả năng cài đặt các ứng dụng iOS chưa được ký/đã được ký giả.
-Filename: ./ai.akemi.appsyncunified_113.0_iphoneos-arm.deb
+Filename: ./debs/ai.akemi.appsyncunified_113.0_iphoneos-arm.deb
 Size: 54294
-Installed-Size: 54294
+Installed-Size: 636
 MD5sum: 23c0f41be6933e3d40b8a11134730479
 SHA1: e4ee2e50da9fdb6d8d5893044671ae7e3e1eccb2
 SHA256: a509a97b573aafe0134403cc0d8798b76f72f16416abac46b0d31f3ee55ea952
@@ -47,9 +47,9 @@ Author: Ryan Petrich <rpetrich@gmail.com>
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0), com.rpetrich.rocketbootstrap (>= 1.0.7~beta3) | firmware (<< 7.0)
 Conflicts: com.a3tweaks.polus (<< 2.0.7)
 Description: Allow extensions to read the list of installed apps
-Filename: ./applist_1.5.16_iphoneos-arm.deb
+Filename: ./debs/applist_1.5.16_iphoneos-arm.deb
 Size: 319678
-Installed-Size: 319678
+Installed-Size: 780
 MD5sum: d1dfb580a645ccc9b20eb0128874898c
 SHA1: 479508984abce15d475b924e0eb371a28c25b15a
 SHA256: 4691af219df9e066a768e0bbf2638fbfce80c8cacc0d2940c0406363fd84fd03
@@ -64,9 +64,9 @@ Maintainer: bag.xml, Requis
 Author: bag.xml, Requis
 Depends: mobilesubstrate, preferenceloader
 Description: TubeRepair is a tweak that redirects YouTube API traffic from the classic YouTube app, and the App Store YouTube app to a designated custom server. You could also just say that it fixes both applications. For assistance refer to the guide (https://tuberepair.bag-xml.com/guide/)
-Filename: ./bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
+Filename: ./debs/bag.xml.tuberepair_1.2-Beta-1_iphoneos-arm.deb
 Size: 100100
-Installed-Size: 100100
+Installed-Size: 216
 MD5sum: 7b3972a60a7f9ca27d4367382f732a70
 SHA1: 53bea655e33167039c29db8f28518131c8943622
 SHA256: b3c0d51fdefdf0844c58a8fb343fde04da3f0c2df6be8901384be4f054eb0895
@@ -82,9 +82,9 @@ Author: Adrien Ruest-Lorquet
 Homepage: https://github.com/AdrienRL1/AppDrop
 Depends: firmware (>= 5.0), ai.akemi.appsyncunified | net.angelxwind.appsyncunified | com.linusyang.appsync, com.autopear.installipa | ai.akemi.appinst
 Description: Browse 43,000+ iOS apps by category and install them on iOS 5-10. Fully iPad-optimized. v3.2: new "Most Downloaded" home shortcut + per-app download counts + sort by downloads, live active-users count, and you can now contribute IPAs yourself at https://upload.appdrop.ca. Also fixes version/compatibility selection (always the newest installable, non-encrypted build) and a category-loading glitch. v3.2.0.1: "Uncategorized" category now lists apps that have no category, download counts & Most Downloaded refresh continuously, and the iOS 5.x launch crash is fixed. v3.2.0.3: community "compatibility builds" (an app re-targeted to a lower iOS) merge cleanly and are fully reversible. v3.2.1: freezing is a lot better now, especially on older devices; the catalogue is tidier, with apps that don't belong no longer recommended; the Search, Install and Settings icons at the bottom look a lot sharper; and on a colour or dark theme the selected tab follows your theme instead of always being blue. (17 themes + dark mode, Favorites & folders, 9 languages.)
-Filename: ./ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
+Filename: ./debs/ca.adrien.appdrop_3.2.1_iphoneos-arm.deb
 Size: 992538
-Installed-Size: 992538
+Installed-Size: 89
 MD5sum: 609a52b69e31df4aa7c864a4713ba849
 SHA1: f83f1fa9908d65051e036203761f1cc0397b9934
 SHA256: 22e8e4e0a20f47c08c07b9c53b3d60c029faf86541826ac6c081632cfd4f20f0
@@ -103,9 +103,9 @@ Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockf
 Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
 Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
 Description: Centralized toggle system for iOS
-Filename: ./com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+Filename: ./debs/com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
 Size: 611942
-Installed-Size: 611942
+Installed-Size: 2408
 MD5sum: 40960633f9451d211a80c084ffdda1fd
 SHA1: e3a4904c96309b07d9eb9205ce99b7e7b8a705c2
 SHA256: ba477932b28bd931d6eb1c7efba4612f87062be8988ab817f1c486966a649566
@@ -121,9 +121,9 @@ Author: satou@aoiblog.jp
 Depends: firmware (>= 6.0), firmware (<< 7.0), net.nekokawa.appstorefix, uk.invoxiplaygames.checkmatestore, com.innoying.sbutils
 Conflicts: com.aoi.storefix6
 Description: Fixed an issue where iOS 6 and earlier could not connect to the App Store. (Only the host file is rewritten. A restart may be required after installation.) If you applied the patch in the previous version, you may not be able to log in with your Apple ID, so we recommend initializing it.
-Filename: ./com.aoi.storefix6_1.0-8_iphoneos-arm.deb
+Filename: ./debs/com.aoi.storefix6_1.0-8_iphoneos-arm.deb
 Size: 900
-Installed-Size: 900
+Installed-Size: 0
 MD5sum: 719cac4694a4eb33acbeb6f8b61b5027
 SHA1: e46f6cc2bb1b658e12ce654e33a89c2d4d8870c3
 SHA256: 07d1784f3d60001da007f1bf2253b41de62eb0e628a0e0c1a4fca07f924df71e
@@ -139,9 +139,9 @@ Author: Andrew Richardson <andrewr114@gmail.com>
 Homepage: http://modmyi.com/info/weepreferenceloader.php
 Depends: firmware (>= 5.0), mobilesubstrate
 Description: A framework to easily add preferences to the Notifications settings.
-Filename: ./com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
+Filename: ./debs/com.arichardson.weepreferenceloader_1.1_iphoneos-arm.deb
 Size: 34566
-Installed-Size: 34566
+Installed-Size: 98
 MD5sum: 42c6c5269d8f10e1a539fa6f03d7447b
 SHA1: 38998cd21d4425b57cd48e70c5a6f9164dc639ac
 SHA256: b6007be48610b2b926ff4090cfa467459ba4dfd8b9a4620c9b7dc914f55dea92
@@ -157,9 +157,9 @@ Author: David Ashman (Stimpy5050)
 Homepage: http://modmyi.com/info/wvc.php
 Depends: mobilesubstrate
 Description: Adds simple URL handling to custom preferences.
-Filename: ./com.ashman.wvc_1.0.0_iphoneos-arm.deb
+Filename: ./debs/com.ashman.wvc_1.0.0_iphoneos-arm.deb
 Size: 13550
-Installed-Size: 13550
+Installed-Size: 37
 MD5sum: 5315e9c3c6705c0a7406736750230496
 SHA1: dd0c8d3f42f8a1f14c29ca3124cdbc5a1729b38e
 SHA256: ea881e13cccce3f5f695e0b1127c2bab35a7d84efd1670b1a590a049a3077221
@@ -175,9 +175,9 @@ Author: Merlin <lonelystars@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ipainstallerconsoleDp
 Depends: firmware (>= 4.0)
 Description: Install IPA from the command line
-Filename: ./com.autopear.installipa_3.4.1-1_iphoneos-arm.deb
+Filename: ./debs/com.autopear.installipa_3.4.1-1_iphoneos-arm.deb
 Size: 151642
-Installed-Size: 151642
+Installed-Size: 238
 MD5sum: 1cab25da970ef0e7d5e6a2ec7fbd4ef6
 SHA1: ec137177e52ccf028c948e8bb8ad27c21daa946d
 SHA256: aa1f326f860b0d46946e763b24525fd68ff8631c69f4169eb792bae60739bdfd
@@ -192,9 +192,9 @@ Maintainer: Biện Văn Nhật
 Author: NTQ1195
 Depends: mobilesubstrate
 Description: Thu gọn & làm mờ trình phát nhạc trên màn hình khoá của bạn!
-Filename: ./com.bienvannhat.vinyl_1.0_iphoneos-arm.deb
+Filename: ./debs/com.bienvannhat.vinyl_1.0_iphoneos-arm.deb
 Size: 12046
-Installed-Size: 12046
+Installed-Size: 99
 MD5sum: 8cbc49ca33b2e6ab2f08af91e54a52a8
 SHA1: 017aa8c70c272b4f28902e34789fd111713449b2
 SHA256: 67ad784457e817cc6751a4efd90883702f10537c7379f08ce2789d180e0486c0
@@ -211,9 +211,9 @@ Homepage: http://chpwn.com/cydia/zephyr.html
 Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.layersnapshotter
 Conflicts: com.dapetcu21.multicleaner (<= 2.9.4), com.xsellize.multicleaner, com.xsellize.zephyr
 Description: Thao tác đa nhiệm và cử chỉ vuốt tuyệt vời!
-Filename: ./com.bienvannhat.zephyr_1.6.4-1_iphoneos-arm.deb
+Filename: ./debs/com.bienvannhat.zephyr_1.6.4-1_iphoneos-arm.deb
 Size: 44464
-Installed-Size: 44464
+Installed-Size: 112
 MD5sum: 1ab8937f62757a838a945c66c00de10f
 SHA1: 368b2c8b4742d57c3000012f82641817340a0cac
 SHA256: 52e45ed75e3d7af6d31c09bce0688dce1bffd8c67be14de9c4b4c71a85ca00ba
@@ -229,9 +229,9 @@ Author: bushe <bushe102@gmail.com>
 Homepage: http://modmyi.com/info/unlock7.php
 Depends: mobilesubstrate
 Description: Slide anywhere on the screen to unlock your phone
-Filename: ./com.bushe.unlock7_0.0.2-1_iphoneos-arm.deb
+Filename: ./debs/com.bushe.unlock7_0.0.2-1_iphoneos-arm.deb
 Size: 8636
-Installed-Size: 8636
+Installed-Size: 19
 MD5sum: 6d3d8187b924b71db4f78e406a0b5ff2
 SHA1: 3f893a2c7465cee3f86a40d4b5ca6960436d8174
 SHA256: d775d56b54fec9c1653e2a9b8b60cf9d520f075aa166e1f26698c0d408264b90
@@ -245,9 +245,9 @@ Priority: Optional
 Maintainer: BVN Repo
 Author: Hưng Nguyễn
 Description: LS UI Snake Thay đổi nền nút đèn pin và camera
-Filename: ./com.bvn.lsuisnake_0.1_iphoneos-arm.deb
+Filename: ./debs/com.bvn.lsuisnake_0.1_iphoneos-arm.deb
 Size: 78536
-Installed-Size: 78536
+Installed-Size: 89
 MD5sum: 23e4979240b064ba5e694053f6349dc4
 SHA1: d49eab3dd74b11d804b5a8e4cc13f8d16efa5cc9
 SHA256: dab3740be000edba3ec9b0a0c2d3bdfe02d602801462edcd3d87d18f9e0d378a
@@ -261,9 +261,9 @@ Priority: Optional
 Maintainer: Bvn repo
 Author: Rifai <icons-requests@hotmail.com>
 Description: Solstice Theme 3650 icons
-Filename: ./com.bvn.solsticer_3.0.7K_iphoneos-arm.deb
+Filename: ./debs/com.bvn.solsticer_3.0.7K_iphoneos-arm.deb
 Size: 61699734
-Installed-Size: 61699734
+Installed-Size: 65137
 MD5sum: c6d66d1ce579963882daaaee2bc1e60f
 SHA1: 9e86ae5a75abe8195cb974c845e9f059d8a3dbdc
 SHA256: c5314372305923b959e21b74f306c84b0a3709153eecb00244c965062652ea72
@@ -277,9 +277,9 @@ Priority: Optional
 Maintainer: Biện Văn Nhật
 Author: Biện Văn Nhật
 Description: Biểu tượng Cydia cho kho lưu trữ BVN
-Filename: ./com.bvnsupport.jailbreak.github.io.icon_6.3-3_iphoneos-arm.deb
+Filename: ./debs/com.bvnsupport.jailbreak.github.io.icon_6.3-3_iphoneos-arm.deb
 Size: 340952
-Installed-Size: 340952
+Installed-Size: 721
 MD5sum: 7ff636679beb0683a9b58fb44af942d9
 SHA1: 313dd0cc96c4bfc805d7cbca6e5a35b3f257e282
 SHA256: 56304d946862c1cc339b786bb03f5c784888220512649d8fbf026c89af110ba2
@@ -294,9 +294,9 @@ Maintainer: BytaFont.com <info@bytafont.com>
 Author: BytaFont.com <info@bytafont.com>
 Depends: mobilesubstrate
 Description: BytaFont Tweak Mode
-Filename: ./com.bytafont.bytafonttm_1.1.4_iphoneos-arm.deb
+Filename: ./debs/com.bytafont.bytafonttm_1.1.4_iphoneos-arm.deb
 Size: 26366
-Installed-Size: 26366
+Installed-Size: 163
 MD5sum: 26059ab465dcd7aeadbe526aa58b072d
 SHA1: 810af3634a7334b0ed6c30979c5e05039c66c090
 SHA256: af36c7c0e5d9670cd99fc3b696804649c896bb4ef9cad74fdd0b7380d8646929
@@ -311,9 +311,9 @@ Maintainer: BytaFont.com <info@bytafont.com>
 Author: BytaFont.com <info@bytafont.com>
 Depends: com.bytafont.bytafonttm
 Description: Tweak Mode font by BytaFont.com
-Filename: ./com.bytafonttm.bebasneue_1.0_iphoneos-arm.deb
+Filename: ./debs/com.bytafonttm.bebasneue_1.0_iphoneos-arm.deb
 Size: 68134
-Installed-Size: 68134
+Installed-Size: 189
 MD5sum: 88fec65fa856d5c94ca07ef7059b8362
 SHA1: 70cc6d86131d585f8912fe8a5f43375a041ffcaf
 SHA256: 65b84469470fabc60f898f0a13e1263af7f6d118befea7bedb3d4c64d76f361f
@@ -329,9 +329,9 @@ Author: joedj <weeloader@joedj.net>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=weeloaderDp
 Depends: mobilesubstrate
 Description: Weeeeeeeeeee! Load Wee apps safely.
-Filename: ./com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
+Filename: ./debs/com.chpwn.weeloader_1.4-4_iphoneos-arm.deb
 Size: 19456
-Installed-Size: 19456
+Installed-Size: 99
 MD5sum: 788edf6a1192fa9c6a9d5f2bdb215cd8
 SHA1: 23316b793d07192a1574ba566f4c2e9ce596bc1f
 SHA256: a8aeda5403c29e119b5256821c872c53c7fb139310a43cb0cfbd8e057ac4c7a9
@@ -346,9 +346,9 @@ Maintainer: Erica Sadun <apptapp@ericasadun.com>
 Author: Erica Sadun <apptapp@ericasadun.com>
 Homepage: http://modmyi.com/info/ericautilities.php
 Description: A collection of command-line utilities for various purposes.
-Filename: ./com.ericasadun.utilities_0.4.2_iphoneos-arm.deb
+Filename: ./debs/com.ericasadun.utilities_0.4.2_iphoneos-arm.deb
 Size: 55392
-Installed-Size: 55392
+Installed-Size: 272
 MD5sum: 7418c9282a1f6a5e01bce420e8597c67
 SHA1: 916f0f69a2a9bd9291e9ac2c62308570a4f023b4
 SHA256: c1cd8c145062b3af2e9613bc18fafc78f4f43a0ca5d9265a1f0d1862166af6e9
@@ -363,9 +363,9 @@ Maintainer: iH8sn0w, SquiffyPwn, winocm
 Author: iH8sn0w, SquiffyPwn, winocm
 Depends: firmware (>= 6.1.3), firmware (<< 7.0)
 Description: A drama free 6.1.3/6.1.4/6.1.5/6.1.6 untether.
-Filename: ./com.ih8sn0w-squiffy-winocm.p0sixspwn_1.4-1_iphoneos-arm.deb
+Filename: ./debs/com.ih8sn0w-squiffy-winocm.p0sixspwn_1.4-1_iphoneos-arm.deb
 Size: 24182
-Installed-Size: 24182
+Installed-Size: 88
 MD5sum: 4ba9efc61b7d30867bf10f4e5df0c65b
 SHA1: fb7f311b5a59ef974f294a5aba112716d0a627ef
 SHA256: 46e0163470797542263e4281fef2077cb60c8ab48163e702fc7ae76e10969385
@@ -381,9 +381,9 @@ Author: Luke Young (innoying) <innoying@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=sbutilsDp
 Depends: firmware (>= 4.0)
 Description: iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones
-Filename: ./com.innoying.sbutils_1.0.2-1_iphoneos-arm.deb
+Filename: ./debs/com.innoying.sbutils_1.0.2-1_iphoneos-arm.deb
 Size: 13174
-Installed-Size: 13174
+Installed-Size: 123
 MD5sum: 103f275f7c359d07e1cb9746d80abdc7
 SHA1: 821cca6f34fbcdc36e00c6036e2fb10e4a8d5b25
 SHA256: 5bf6f8e2c2ee005fff8eaa0ba42d8398b55adc2314c4b891198decaf50d38894
@@ -398,9 +398,9 @@ Maintainer: hosting <hosting@iphonerepocenter.com>
 Author: Jose Randolf <qbanpapi04@yahoo.com>
 Depends: winterboard
 Description: custom icons based on Disney collectibles
-Filename: ./com.iphonerepocenter.vinylmationtheme_1.0_iphoneos-arm.deb
+Filename: ./debs/com.iphonerepocenter.vinylmationtheme_1.0_iphoneos-arm.deb
 Size: 2843176
-Installed-Size: 2843176
+Installed-Size: 2844
 MD5sum: 2f6e05fba15e838ae71d6ddb8390e9f6
 SHA1: eb47e373e60f8309a050f9a1867890362c8612a0
 SHA256: 356510fb9be0a4c8bd1358055a1c4f123134b4a704de8e2e2289130d804c807f
@@ -416,9 +416,9 @@ Author: FozzyWig <ally.bloom@hotmail.co.uk>
 Homepage: http://moreinfo.iphonerepocenter.com/moreinfo/vinylscratchipodmusicappthemeDp.php
 Depends: winterboard, gsc.hidpi, firmware (>= 4.0)
 Description: from My Little Pony: Friendship is Magic.
-Filename: ./com.iphonerepocenter.vinylscratchipodmusicapptheme_1.2_iphoneos-arm.deb
+Filename: ./debs/com.iphonerepocenter.vinylscratchipodmusicapptheme_1.2_iphoneos-arm.deb
 Size: 3188736
-Installed-Size: 3188736
+Installed-Size: 4922
 MD5sum: 933ef346fae5f37d4a9e3e1d6de44d42
 SHA1: 1dad203b530e2d8e53da24b77c4bafdaba6163d2
 SHA256: 15e27bca43e1abe12893f2a10097fa33d802b5730b82e30338fa86604312926b
@@ -433,9 +433,9 @@ Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Depends: firmware (>> 4.2.1), firmware (<< 7)
 Description: BytaFont lets you apply fonts to your iDevice in few taps.
-Filename: ./com.ipr.bytafont_1.8_iphoneos-arm.deb
+Filename: ./debs/com.ipr.bytafont_1.8_iphoneos-arm.deb
 Size: 269452
-Installed-Size: 269452
+Installed-Size: 752
 MD5sum: eb1533fbcac8e389f24bf2ca690e0d27
 SHA1: b7d61a115afb3250961d7672e2ec5921ffb48714
 SHA256: 3a671ca96b7c9a713762857ae71bfd1d4636aa614004d679604014a7a46d2a28
@@ -450,9 +450,9 @@ Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Depends: com.ipr.bytafont
 Description: BytaFont font by iPhoneRuler.net
-Filename: ./com.ipr.ios4actionmanfont_2.2_iphoneos-arm.deb
+Filename: ./debs/com.ipr.ios4actionmanfont_2.2_iphoneos-arm.deb
 Size: 4765866
-Installed-Size: 4765866
+Installed-Size: 10335
 MD5sum: 1534fd085471288bfeeb37de9686555e
 SHA1: b5f9e1a88f14b02e4e17b8c904b7fe496f435129
 SHA256: 2a4bd1b1c97a3e57a05aafe5299eec8562ee4e59441d17e367c8866d2b17e167
@@ -467,9 +467,9 @@ Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Depends: com.ipr.bytafont
 Description: BytaFont font by iPhoneRuler.net
-Filename: ./com.ipr.ios4airplanesinthenightskyfont_2.0_iphoneos-arm.deb
+Filename: ./debs/com.ipr.ios4airplanesinthenightskyfont_2.0_iphoneos-arm.deb
 Size: 4821542
-Installed-Size: 4821542
+Installed-Size: 10397
 MD5sum: 2c0ee4be547b300f0562ae04d0f2f5eb
 SHA1: 67254f346b65cbedb6634a74cb19828b136485d5
 SHA256: 140be342740966c3e97aa8c42da59421d9461309398a15bb034bcdc83fabbb2e
@@ -484,9 +484,9 @@ Maintainer: iPhoneRuler.net <info@iphoneruler.net>
 Author: iPhoneRuler.net <info@iphoneruler.net>
 Depends: com.ipr.bytafont
 Description: BytaFont font by iPhoneRuler.net
-Filename: ./com.ipr.ios4ubuntulightfont_1.0_iphoneos-arm.deb
+Filename: ./debs/com.ipr.ios4ubuntulightfont_1.0_iphoneos-arm.deb
 Size: 4945114
-Installed-Size: 4945114
+Installed-Size: 11260
 MD5sum: 230ccc2aed9eb1604fe74f9b0438e4de
 SHA1: fdd6e53308cb16e85035f0dea2c505b216f0e9f5
 SHA256: f273449ab04be1f81022f10a7ac4ae9b6eed1eebcc09a111d0ceeab846556f31
@@ -502,9 +502,9 @@ Author: JamieD360 <jamied360support@live.co.uk>
 Homepage: http://modmyi.com/info/ncsettings.php
 Depends: firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
 Description: NCSettings is a sleek Notification Center toggle widget
-Filename: ./com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
+Filename: ./debs/com.jamied360.ncsettings_1.7.1_iphoneos-arm.deb
 Size: 469840
-Installed-Size: 469840
+Installed-Size: 1064
 MD5sum: 86e79aaaf643389e72bc784935b08e4d
 SHA1: aebc8995f836e5a9a7472c7bc35c734ea2c4ec1f
 SHA256: c9142715cf8fd06a5d48fb4e6068fd0f1df9a66d55dc3b1460b495a7a08f46e8
@@ -520,9 +520,9 @@ Author: Gi-lo <gi-lo@touch-mania.com>
 Homepage: http://www.macciti.com
 Depends: mobilesubstrate, winterboard
 Description: Extension to display the cover-art on the lockscreen in a different way. You can use your own background and Vinyl-Cover / CD-Case images. Credits to Thyraz for creating the vinyl cover-artwork.
-Filename: ./com.macciti.snowcover_2.0a_iphoneos-arm.deb
+Filename: ./debs/com.macciti.snowcover_2.0a_iphoneos-arm.deb
 Size: 603438
-Installed-Size: 603438
+Installed-Size: 627
 MD5sum: 63699e28cf14a8dfa7a265a554bb2f11
 SHA1: a762d387a07e39a19285dbff3f4fc91b55d2778b
 SHA256: 54cff94b0b5f8c642d1d9fed695f1d8b958796c5d8cca9d1b6293641ce057606
@@ -538,9 +538,9 @@ Author: jackjohnbrown <apps@jackjohnbrown.com>
 Homepage: http://modmyi.com/info/clearhighnotifications.php
 Depends: winterboard
 Description: Transparent lock screen alerts.
-Filename: ./com.modmyi.clearhighnotifications_1.3_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.clearhighnotifications_1.3_iphoneos-arm.deb
 Size: 10776
-Installed-Size: 10776
+Installed-Size: 25
 MD5sum: c8f1641a7faa40a32036c526c1d99f7e
 SHA1: 71607ddb78273bdf84ee51cfc33556e2e0696fa0
 SHA256: f2be46af95c46a671ccea7dda74401bd3ea4b54b3cc08102365e5662ee3fded1
@@ -556,9 +556,9 @@ Author: CoOoL_BoY <coool_boy@me.com>
 Homepage: http://modmyi.com/info/iphone4clearlockscreen.php
 Depends: winterboard, firmware (>= 4.0)
 Description: iPad/iPhone 4 Clear LockScreen.
-Filename: ./com.modmyi.iphone4clearlockscreen_2.3_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.iphone4clearlockscreen_2.3_iphoneos-arm.deb
 Size: 83082
-Installed-Size: 83082
+Installed-Size: 194
 MD5sum: 755d33151e4d29144348ef119a4714e8
 SHA1: 7af524c2f5fde9a684438d61885557a519b3f81c
 SHA256: 939214ea72522e92b159af5eb2e886e6a57a3f767df0769e9bad6de6df288fed
@@ -574,9 +574,9 @@ Author: DarthVader1 <Evilwillprevail@hotmail.com>
 Homepage: http://modmyi.com/info/mediaplayerredone.php
 Depends: winterboard
 Description: This is a recolor of the buttons on the media players.
-Filename: ./com.modmyi.mediaplayerredone_1.0_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.mediaplayerredone_1.0_iphoneos-arm.deb
 Size: 50852
-Installed-Size: 50852
+Installed-Size: 115
 MD5sum: b4883b36ca8f5c228a77f9c5f93bc4f2
 SHA1: 2fb99e38ea2f6490f460aaa718e16628b2ed901b
 SHA256: e420184cd8cf43fc44c429870cf4f0be4eab57e1cde804633b9fa04d1ee4ab6e
@@ -592,9 +592,9 @@ Author: MagWhiz <magwhiz@me.com>
 Homepage: http://modmyi.com/info/softremix3.php
 Depends: winterboard
 Description: Soft Remix 3
-Filename: ./com.modmyi.softremix3_1.0_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.softremix3_1.0_iphoneos-arm.deb
 Size: 18983352
-Installed-Size: 18983352
+Installed-Size: 18525
 MD5sum: 5ee6301c070ef70015ef6cebe91bb2bb
 SHA1: 493e5d4d2ac7cbde65834bdb2b8995f2ef44b08c
 SHA256: ac23839e53420db417da69e1f6eeb51dd2d2d24dfb5296dfebab691e1003668d
@@ -610,9 +610,9 @@ Author: D4sh <linus@holtstiege.eu>
 Homepage: http://modmyi.com/info/suaveios6.php
 Depends: winterboard
 Description: Powerful iOS 6 theme for all retina devices.
-Filename: ./com.modmyi.suaveios6_3.0_iphoneos-arm.deb
+Filename: ./debs/com.modmyi.suaveios6_3.0_iphoneos-arm.deb
 Size: 4791238
-Installed-Size: 4791238
+Installed-Size: 5769
 MD5sum: 46b7401586a7b3aaa6fc8f332a5a210f
 SHA1: ca5d376b19d1388c01ce766f972668e6fcf4cb65
 SHA256: 003a9a454512921bb35f9160f91a6e2452ec49889cf2a3ff5c604c70a1b84195
@@ -628,9 +628,9 @@ Author: PathKiller29 <appleidname@yahoo.com>
 Homepage: http://modmyi.com/info/nccolors.php
 Depends: mobilesubstrate, preferenceloader
 Description: Change the color of notification center background.
-Filename: ./com.pathkiller.nccolors_.7-11_iphoneos-arm.deb
+Filename: ./debs/com.pathkiller.nccolors_.7-11_iphoneos-arm.deb
 Size: 13130
-Installed-Size: 13130
+Installed-Size: 26
 MD5sum: 32c995a2bfb0be4962d3b0d5d3005a5d
 SHA1: 02f2b1f8afbd15827b9670f99d26d7845a5dbb5b
 SHA256: 87f4149e0592a91d7611f20c93242049ca4c570863a16f31b2df333508cd77f4
@@ -645,9 +645,9 @@ Maintainer: Pod
 Author: Pod
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: A tweak that prevents the Facebook app from crashing
-Filename: ./com.podpod123.fbcrashfix_1.0-4+debug_iphoneos-arm.deb
+Filename: ./debs/com.podpod123.fbcrashfix_1.0-4+debug_iphoneos-arm.deb
 Size: 10418
-Installed-Size: 10418
+Installed-Size: 108
 MD5sum: 812cbda86ac54f4a081cbbc7966393ad
 SHA1: 24cf417f4796dbf37165a7aca55525caeb40339b
 SHA256: 24d799bfb96d523993486442d25e490ccb56ae392de911debf212db1beec4b86
@@ -662,9 +662,9 @@ Maintainer: Pod
 Author: Pod
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 10.3.4)
 Description: A fix for iOS's Facebook system integration
-Filename: ./com.podpod123.fbintegrationfix_1.0-8+debug_iphoneos-arm.deb
+Filename: ./debs/com.podpod123.fbintegrationfix_1.0-8+debug_iphoneos-arm.deb
 Size: 11532
-Installed-Size: 11532
+Installed-Size: 108
 MD5sum: c8ab335550be003f1aa008bfe783c21a
 SHA1: 96cdd720493a17a426f8cfa57bf272a486f3bcb5
 SHA256: 432de1413d6ffce8312a673f0a19ad68e564a9c6359f8d1439dbaa9bebde4aaf
@@ -680,9 +680,9 @@ Author: Ryan Petrich <rpetrich+layersnapshotter@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=layersnapshotterDp
 Depends: firmware (>= 4.3)
 Description: snapshot composite images for views & layers
-Filename: ./com.rpetrich.layersnapshotter_1.0_iphoneos-arm.deb
+Filename: ./debs/com.rpetrich.layersnapshotter_1.0_iphoneos-arm.deb
 Size: 3968
-Installed-Size: 3968
+Installed-Size: 16
 MD5sum: d6a67e93e955841f4fbc9e2a345b4225
 SHA1: 6886b275e920ba4a1c3e6bb794d5b9bef174bbc4
 SHA256: 1c43636aabbd680e1e401e91c2ce90b9826e3b89a4fbb59d37bf990a71eaf2d6
@@ -698,9 +698,9 @@ Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
 Description: Support library allowing tweaks to communicate with sandboxed processes
-Filename: ./com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
 Size: 123996
-Installed-Size: 123996
+Installed-Size: 596
 MD5sum: 9482061eaa7c81cbed41b8a8db52564e
 SHA1: e9c2f40caee4144dc8ec755084141a13f85993a6
 SHA256: 277aa028a6a4b07bec0d43b7a7aa9ef76c9065c98c50c26bf40dc223284fe887
@@ -717,9 +717,9 @@ Depends: mobilesubstrate (>= 0.9.3367+38)
 Conflicts: safe-mode-fixer-ios7
 Replaces: safe-mode-fixer-ios7
 Description: safe mode safety extension (safe)
-Filename: ./com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Filename: ./debs/com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
 Size: 20782
-Installed-Size: 20782
+Installed-Size: 156
 MD5sum: df81e2190d5165aeb773144f37d71010
 SHA1: dae38ee65849899847cf2293ad218193f563f02c
 SHA256: 28858f39e6aa31edbcb1173816e7b48815482e212c7ff6288f0c1bd5e7f1f4ca
@@ -734,9 +734,9 @@ Maintainer: Requis, Bag.xml
 Author: Requis, Bag.xml
 Depends: mobilesubstrate, firmware (<= =7.9)
 Description: This tweak fixes any storefront. It fixes every app's connection issues with the iTunes Store, as of recent changes made by Apple, this tweak does not allow to download apps.
-Filename: ./com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
+Filename: ./debs/com.skyglow.itunesstorex_3.2_iphoneos-arm.deb
 Size: 115538
-Installed-Size: 115538
+Installed-Size: 312
 MD5sum: 49ae1dc020beca44221750cba62c593a
 SHA1: 932185ef1a0d5692bcab353363fd2c4944150b5e
 SHA256: 4b7cb8706e55ee55f6e45b209688aa6908d728b81596b438b4ac5d5adbe8fbb8
@@ -752,9 +752,9 @@ Author: Requis, Electimon
 Depends: mobilesubstrate (>= 0.9.2586), firmware (>= 2.0), firmware (<= 7.9), preferenceloader
 Conflicts: com.ixmoe.1pwn.weatherx, com.skyglow.stocksx
 Description: Fix iOS's Weather & Stocks apps from iPhoneOS 2 to iOS 7, the widgets in the notification center, and the temperature in the iPad clock app!
-Filename: ./com.skyglow.weatherx_3.5_iphoneos-arm.deb
+Filename: ./debs/com.skyglow.weatherx_3.5_iphoneos-arm.deb
 Size: 155718
-Installed-Size: 155718
+Installed-Size: 590
 MD5sum: 3fb591dece343c539dd941a6bb064219
 SHA1: 778702a6f7a883ef892a473df10da7066d8094bb
 SHA256: fbf93de5285302657774c42bb871daf4bcd8fbbc8736912742d022d387454c43
@@ -770,9 +770,9 @@ Author: VincenzoBB <vincenzofreestyle@gmail.com>
 Homepage: http://modmyi.com/info/slidetomod.php
 Depends: mobilesubstrate
 Description: modify your "unlock bar" writing the text that you want
-Filename: ./com.vincenzobb.slidetomod_1.1_iphoneos-arm.deb
+Filename: ./debs/com.vincenzobb.slidetomod_1.1_iphoneos-arm.deb
 Size: 14474
-Installed-Size: 14474
+Installed-Size: 34
 MD5sum: 342f699e70692dc7e0aefd69d7da930f
 SHA1: 5c63ce78adec7f1a9155e5487b478721bf383f0b
 SHA256: 601d378c67d35d0153ec6cf036de6d9fdf998ea3814786adead99b624def57b6
@@ -787,9 +787,9 @@ Maintainer: poetic_folly <poetic_folly@modmyi.com>
 Author: Milika <codylindsaygordon@gmail.com>
 Homepage: http://modmyi.com/info/themeready.php
 Description: ThemeReady gives you access to quick tools from your Settings menu.
-Filename: ./com.void.themeready_0.9.1-59_iphoneos-arm.deb
+Filename: ./debs/com.void.themeready_0.9.1-59_iphoneos-arm.deb
 Size: 60366
-Installed-Size: 60366
+Installed-Size: 120
 MD5sum: dc16d7f5629c4b8e068d55512aedf3fa
 SHA1: 0eae3f303f0bfbb206b00f69771c2f42ff7266a0
 SHA256: 0618eac3f95f23f98bbd90bcc5d1f68cfd65534f14f767da4b610696c45bd4a9
@@ -807,9 +807,9 @@ Conflicts: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispa
 Provides: bigbossbetarepo, cydia-sources
 Replaces: bigboss, bigbossbetarepo, com.sosiphone.addcydia, cydia-sources, ispazio.net, modmyifone, saurik, ste, yellowsn0w.com, zodttd
 Description: graphical iPhone front-end for APT
-Filename: ./cydia_1.1.30_iphoneos-arm.deb
+Filename: ./debs/cydia_1.1.30_iphoneos-arm.deb
 Size: 2264904
-Installed-Size: 2264904
+Installed-Size: 7160
 MD5sum: 70d6b2c754be51753812238139ffcabf
 SHA1: ebb1d1c9ac861ec65c3bf4bcccddd3b2e8e1a2d7
 SHA256: 2867e0e6fccb5ad4d6f5be52621e03c73cadcbae1957358fed835df9c42c52c0
@@ -827,9 +827,9 @@ Conflicts: org.thebigboss.russiancydia
 Provides: org.thebigboss.russiancydia
 Replaces: cydia, org.thebigboss.russiancydia
 Description: languages and translations for Cydia
-Filename: ./cydia-lproj_1.1.12_iphoneos-arm.deb
+Filename: ./debs/cydia-lproj_1.1.12_iphoneos-arm.deb
 Size: 76410
-Installed-Size: 76410
+Installed-Size: 712
 MD5sum: 6e29d4af60f4fb280f193966aac7b919
 SHA1: 420b5de9e3d62c15dfff95adc643051c6f75168a
 SHA256: ff334b4716fcb918e779a70886b86f29f24dffe66ae4cd7daad8d8367fcc59e0
@@ -843,9 +843,9 @@ Priority: optional
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Depends: libxml2
 Description: GData client library (Objective-C)
-Filename: ./gdata-objectivec-client_129-1_iphoneos-arm.deb
+Filename: ./debs/gdata-objectivec-client_129-1_iphoneos-arm.deb
 Size: 329806
-Installed-Size: 329806
+Installed-Size: 1892
 MD5sum: 610b03d22001fe748c02db56944e218a
 SHA1: d8b067d6deb28212a25ecf19e5ed350b61f3aa71
 SHA256: 9d2ee8dc1db58d9ca5d288ea7ff2ead4a3db295669e3fec50283bdd1ddebe8b5
@@ -860,9 +860,9 @@ Maintainer: Cydia.vn <repo@cydia.vn>
 Author: Cydia.vn <repo@cydia.vn>
 Homepage: http://cydia.vn/
 Description: Icon cho Cydia.vn source!
-Filename: ./gsmicon_4.0-2_iphoneos-arm.deb
+Filename: ./debs/gsmicon_4.0-2_iphoneos-arm.deb
 Size: 30778
-Installed-Size: 30778
+Installed-Size: 193
 MD5sum: e13445f28425c52a48bd4321ee13b67b
 SHA1: 5964d6917d88ba01040bd577725d01398acdb3a7
 SHA256: 8b0b9cc802d6e6a8204f53f451a51939cd74d5e2a4207cc71eea064b83d7d76e
@@ -880,9 +880,9 @@ Depends: mobilesubstrate (>= 0.9.5101), preferenceloader (>= 2.2.2), com.a3tweak
 Conflicts: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), sbsettings (<= 3.0.6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, libhide (<< 2.4.1), com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
 Replaces: com.booleanmagic.overboard (<= 1.1), com.ashman.lockinfo (<= 2.0.0-6), com.fuyuchi.missionboardpro (<= 1.3), com.kindadev.nobetaalert, com.fortysixandtwo.activ8rfix, net.tateu.actisearch, com.jakeashacks.activator, com.udevs.activatorhomebuttoncrashfix, eu.rio-doro.actithemefix
 Description: Centralized gestures, button and shortcut management for iOS
-Filename: ./libactivator_1.9.13_iphoneos-arm.deb
+Filename: ./debs/libactivator_1.9.13_iphoneos-arm.deb
 Size: 1784158
-Installed-Size: 1784158
+Installed-Size: 5060
 MD5sum: f33d5da754430407cf87c57602697ab9
 SHA1: b4848c687a9e7dbaacdfdd2514873681dd6fb099
 SHA256: 009964f3b1e7069f748d323c50cbfdf4df622f901960eb9ea007965ecf96f4fa
@@ -897,9 +897,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: BigBoss <bigboss@thebigboss.org>
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: Library to hide icons.
-Filename: ./libhide_2.4.1-1_iphoneos-arm.deb
+Filename: ./debs/libhide_2.4.1-1_iphoneos-arm.deb
 Size: 46410
-Installed-Size: 46410
+Installed-Size: 232
 MD5sum: 9592b3c1f3d1ca45781e0bf84eaa117c
 SHA1: a31022ed986e94f050ae25ec199ea41da8466e7f
 SHA256: d6de615b1dd708f49bee0308efc14e610d235007ce5c67be3bf408e0bd7cda58
@@ -914,9 +914,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: phoenix3200 <phoenix3200.dev@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libstatusbarData
 Depends: mobilesubstrate, firmware (>= 4.0), firmware (<< 7.0) | com.rpetrich.rocketbootstrap
-Filename: ./libstatusbar_0.9.9.0-1_iphoneos-arm.deb
+Filename: ./debs/libstatusbar_0.9.9.0-1_iphoneos-arm.deb
 Size: 46042
-Installed-Size: 46042
+Installed-Size: 184
 MD5sum: 916a4b21e79dc36b676e42e01cc0ab18
 SHA1: 5bcd9810b29c4f36ca89f3aac5a1401e0fc1d3a6
 SHA256: eb7e344880284b0412d83ad423710c83ab992db61f8826be70a18a4f085149d7
@@ -933,9 +933,9 @@ Depends: com.saurik.substrate.safemode
 Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
 Replaces: cycript (<= 0.9.594)
 Description: powerful code insertion platform
-Filename: ./mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Filename: ./debs/mobilesubstrate_0.9.6301_iphoneos-arm.deb
 Size: 382894
-Installed-Size: 382894
+Installed-Size: 2381
 MD5sum: 1e4dbc182d368ce609ba2ef56f4d1bd6
 SHA1: 5543ee320ccec629b44ccd7de1ba887eb0353689
 SHA256: 170c00a781f204af718be54f7b18010d5f39b75f5aa7bca496e6e45e02fa01ed
@@ -950,9 +950,9 @@ Maintainer: Stella Diaz (electimon)
 Author: Stella Diaz (electimon
 Depends: mobilesubstrate
 Description: An awesome MobileSubstrate tweak!
-Filename: ./moe.yzu.veterishelper_1.0.0-53+debug_iphoneos-arm.deb
+Filename: ./debs/moe.yzu.veterishelper_1.0.0-53+debug_iphoneos-arm.deb
 Size: 9744
-Installed-Size: 9744
+Installed-Size: 124
 MD5sum: 606ab05d14c6726cc363fbd55233ce35
 SHA1: e84b67ef6443f9f9e16faf5c4c3df1d1cb26af32
 SHA256: a30c5b1ab00fada8939184b843684694320b390f251fa445d2fb701f0b1cf220
@@ -967,9 +967,9 @@ Maintainer: nekokawa
 Author: nekokawa
 Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 6.0), firmware (<= 6.1.6), preferenceloader
 Description: Fix AppStore SSL connection(only iOS 6!)
-Filename: ./net.nekokawa.appstorefix_0.3.5-4+debug_iphoneos-arm.deb
+Filename: ./debs/net.nekokawa.appstorefix_0.3.5-4+debug_iphoneos-arm.deb
 Size: 30550
-Installed-Size: 30550
+Installed-Size: 264
 MD5sum: 76cfc86410e70dbb2d1c4a1aca5aa01e
 SHA1: c6821429ab7710ff699676379148aaa53f791c34
 SHA256: 434344a8e89aa9002cd8ed05c5bdf595d1d9de002be1ee5377159128ef255cca
@@ -984,9 +984,9 @@ Maintainer: nekokawa
 Author: nekokawa
 Depends: mobilesubstrate (>= 0.9.5000)
 Description: Killing SendAnywhere update alerts
-Filename: ./net.nekokawa.sendanywherex_0.0.1-1+debug_iphoneos-arm.deb
+Filename: ./debs/net.nekokawa.sendanywherex_0.0.1-1+debug_iphoneos-arm.deb
 Size: 2934
-Installed-Size: 2934
+Installed-Size: 72
 MD5sum: fedc6ac4070ca272b599ce3b316dcb41
 SHA1: 80d4700d054321a2c981107028856110920b560c
 SHA256: 60bb7a02e8fd89aa2628308062fa3eb0f67c0ca27a3475c538bc2953bca8ecd1
@@ -1001,9 +1001,9 @@ Maintainer: BigBoss <bigboss@thebigboss.org>
 Author: Ivano Bilenchi <support@ib-soft.net>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=icleanerDp
 Description: The first real iOS system cleanup and management utility
-Filename: ./org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
+Filename: ./debs/org.altervista.exilecom.icleaner_7.10.0_iphoneos-arm.deb
 Size: 441104
-Installed-Size: 441104
+Installed-Size: 8217
 MD5sum: eba67bbfacbf3b882940fe78acee3a5a
 SHA1: 7652c7693f367cc5e5e51f8d617c990d8bc8cf69
 SHA256: 82fe7c369b6c9e8c8aaa849c833f705c2cd2fc1213cc32eef8339016cd7e509b
@@ -1019,9 +1019,9 @@ Author: elhizazi1 <elhizazi1@gmail.com>
 Homepage: https://apt.neutronfile.org/
 Replaces: cydia
 Description: locally cached package icons from NeutronFile's Repo
-Filename: ./org.neutronfile.icons_1.1_all.deb
+Filename: ./debs/org.neutronfile.icons_1.1_all.deb
 Size: 3583292
-Installed-Size: 3583292
+Installed-Size: 3560
 MD5sum: b9135ed7ad1065b234bc4377a5550691
 SHA1: eb92bcd8fe614b14bd8f8044c61c0743e0b749d7
 SHA256: 508d5d004389243d2e9d19ed4f9b1e43c51e8de711608e0268b66022d3279918
@@ -1037,9 +1037,9 @@ Author: NeutronFile <neutronfile19@gmail.com>
 Homepage: https://neutronfile.org
 Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p), apt7 (>= 0.7.25.3-6)
 Description: Repackage any of your tweaks locally, without the need to download it from Cydia again. This is super usefull when there is an update of your until now perfectly working tweak in Cydia and you want to make a backup of the version installed. Normally you wouldn't be able to backup anything because it is possible to fetch only the most current version of your tweak and so you would be lost. Not anymore :) not worck white sileo.
-Filename: ./org.neutronfile.redeb_1.0.4E_iphoneos-arm.deb
+Filename: ./debs/org.neutronfile.redeb_1.0.4E_iphoneos-arm.deb
 Size: 3634
-Installed-Size: 3634
+Installed-Size: 9
 MD5sum: dc2389379e15aff65c2bb731378c37d6
 SHA1: a1c9a53b1d23f544e9192246a2f709531f48887d
 SHA256: 797957b2dad90eb7fbd0634dad92297bc36f554c7d90f2aaf9d69792eb019f8f
@@ -1055,9 +1055,9 @@ Author: A3tweaks <A3tweaks@gmail.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=auxoDp
 Depends: firmware (>= 5.1), mobilesubstrate, preferenceloader, applist
 Description: A fantastic re-imagined multitasking bar!
-Filename: ./org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
+Filename: ./debs/org.thebigboss.auxo_1.4-2_iphoneos-arm.deb
 Size: 1953832
-Installed-Size: 1953832
+Installed-Size: 2127
 MD5sum: 564ce03836e361f35c2a6f1024973825
 SHA1: 46cb262b47649fb7ae8da2d52d93a3bd96a437bd
 SHA256: 0fd936b9d4868a0568e9b3edf0a57a7c211172d54957dbc67b1193e6e9c1d9e0
@@ -1073,9 +1073,9 @@ Author: Giulio Petek <gi-lo@touch-mania.com>
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=snowcoversimpleDp
 Depends: mobilesubstrate, firmware (>= 4.0)
 Description: Beautify your lockscreen with album artwork
-Filename: ./org.thebigboss.snowcoversimple_1.2_iphoneos-arm.deb
+Filename: ./debs/org.thebigboss.snowcoversimple_1.2_iphoneos-arm.deb
 Size: 782266
-Installed-Size: 782266
+Installed-Size: 1420
 MD5sum: eafb382e5274127a130968bee4bc4a06
 SHA1: f5916c1266ea55b40d70eb6504833e16f19f544e
 SHA256: 5c29ae642e7a6eaf908a1153cb59c21c16f9f41fd69c5d70efc5efbda9aab9bf
@@ -1091,9 +1091,9 @@ Author: Dustin Howett <dustin@howett.net>
 Homepage: http://howett.net/pincrush
 Description: optimize PNGs just like Apple does
  pincrush is an open, cross-platform alternative to Apple's proprietary PNG mangler, to optimize PNGs for display on iPhoneOS devices.
-Filename: ./pincrush_0.9.2-1_iphoneos-arm.deb
+Filename: ./debs/pincrush_0.9.2-1_iphoneos-arm.deb
 Size: 57120
-Installed-Size: 57120
+Installed-Size: 124
 MD5sum: e40f02467490bda10593076d4f9c93cb
 SHA1: 92647aef2787980df43cc0c7028eebcb62e791d0
 SHA256: d7b46655e966abff36543c0605df09d906ac00172fa3881cf860b7b7f5030037
@@ -1109,9 +1109,9 @@ Author: Sam Bingner <maintainer@sbdhi.com>
 Depends: mobilesubstrate
 Conflicts: ru.rj.meredith, org.mr.meredith, org.mr.smartvolumemixer2, org.mr.smartvolumecontrol3, ru.rj.smartvolumemixer2, ru.rj.smartvolumecontrol3, ru.rj.appdatamanager, org.mr.multipla, org.mr.autotouch, github.io.gfp.veloxreloaded, github.io.gfp.veza, github.io.gfp.indy, github.io.gfp.aperio, org.mr.dra1n, org.mr.fabric2, ru.rj.fabric2, org.mr.filza, ru.rj.veloxreloaded, org.mr.veloxreloaded, org.mr.veza, ru.rj.veza, org.mr.indy, ru.rj.indy, org.mr.safeshutdownn
 Description: load preferences in style
-Filename: ./preferenceloader_2.2.7_iphoneos-arm.deb
+Filename: ./debs/preferenceloader_2.2.7_iphoneos-arm.deb
 Size: 67852
-Installed-Size: 67852
+Installed-Size: 526
 MD5sum: 7505707a8eaaef2751b346dd985fde56
 SHA1: e7c292a81e6dc22b0fa2843688fce220589165dc
 SHA256: 73be07cd128fab2532ce2bedadf539fd1ac39a53eea7c268de0b0c06690c60fc
@@ -1125,9 +1125,9 @@ Priority: required
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Replaces: cydia (<< 1.0.2908-52)
 Description: Jay Freeman (saurik)'s APT repository
-Filename: ./saurik_0-4_iphoneos-arm.deb
+Filename: ./debs/saurik_0-4_iphoneos-arm.deb
 Size: 4484
-Installed-Size: 4484
+Installed-Size: 68
 MD5sum: 816e89f4205d181589730305cbc19063
 SHA1: 7b55145faf40472a31d725577c8d05f8d5185907
 SHA256: caa5796f54881e39240d021ffcc88588673fb2aac79f9ded851b5255232501a7
@@ -1141,9 +1141,9 @@ Priority: Optional
 Maintainer: Tomkids
 Author: Tomkids
 Description: Chat GPT app for Low iOS
-Filename: ./tomkids.chatgpt_31.0.2-5_iphoneos-arm.deb
+Filename: ./debs/tomkids.chatgpt_31.0.2-5_iphoneos-arm.deb
 Size: 3550100
-Installed-Size: 3550100
+Installed-Size: 6304
 MD5sum: 4bdf3a44be76cfd9c0afcfaf182262b6
 SHA1: 23c96e13dd3f7c558b0ba82d87c04afd75e46413
 SHA256: 0b36f9aa7b665ebf0180e06de8698018032b35594cd24206b8bd5a064ec5007d
@@ -1157,9 +1157,9 @@ Priority: Optional
 Maintainer: Tomkids
 Author: Tomkids
 Description: FaceBook app for Low iOS
-Filename: ./tomkids.facebook_11.0-5_iphoneos-arm.deb
+Filename: ./debs/tomkids.facebook_11.0-5_iphoneos-arm.deb
 Size: 40286446
-Installed-Size: 40286446
+Installed-Size: 86067
 MD5sum: bc62ba4416a03fa5ede8d648dcaa9425
 SHA1: 75dec654ff76788724eee831bfd1b734c493da88
 SHA256: 416db245b69e314e9c78af298f2ee8e902d33ca761d41eb433bd423c6868c7a9
@@ -1174,9 +1174,9 @@ Maintainer: Tomkids
 Author: Tomkids
 Depends: firmware (<= 9.0)
 Description: FLAC Player app for Low iOS
-Filename: ./tomkids.flacplayer_1.8_iphoneos-arm.deb
+Filename: ./debs/tomkids.flacplayer_1.8_iphoneos-arm.deb
 Size: 3377054
-Installed-Size: 3377054
+Installed-Size: 7138
 MD5sum: 18e1dc8794b8230bffb6c01ff09e4dac
 SHA1: 84568ead838b6036e7cc81a0848347e1131fbdee
 SHA256: 8bc194ac6ecf47621d4c57e094d4f454dfb61fbd4c39bdfc0fdbaf84eade09c6
@@ -1191,9 +1191,9 @@ Maintainer: Tomkids
 Author: Tomkids
 Depends: firmware (<= 9.0)
 Description: Foobar2000 app for Low iOS
-Filename: ./tomkids.foobar2000_1.0.33_iphoneos-arm.deb
+Filename: ./debs/tomkids.foobar2000_1.0.33_iphoneos-arm.deb
 Size: 11914162
-Installed-Size: 11914162
+Installed-Size: 18627
 MD5sum: 41a6138bde5aed976a54f49f8ed14114
 SHA1: cb01955e104de1496d3340da90f62a746c1113d2
 SHA256: 77015e3dd29f667990f71e70a8fe73b1a80e14414dad65a61829e5ee3a46dd30
@@ -1208,9 +1208,9 @@ Maintainer: Tomkids
 Author: Tomkids
 Depends: firmware (<= 9.0)
 Description: Copy iBooks IPA to /var/mobile/Media/Downloads
-Filename: ./tomkids.ibooks.ipa_3.1.3_iphoneos-arm.deb
+Filename: ./debs/tomkids.ibooks.ipa_3.1.3_iphoneos-arm.deb
 Size: 30750500
-Installed-Size: 30750500
+Installed-Size: 31474
 MD5sum: 05b76fb1f189dcbd5fde8ef5a3a35e71
 SHA1: 33acc260722e8633ff9d43b36907803750b2c2bd
 SHA256: 96a0e3115b14081d98e420814fbfce96d88fb9c2ab510873c0f589e1c04b50a2
@@ -1225,9 +1225,9 @@ Maintainer: Tomkids
 Author: Tomkids
 Depends: firmware (<= 9.0)
 Description: Nhạc của tui cho IOS thấp
-Filename: ./tomkids.nhaccuatui_5.3.1_iphoneos-arm.deb
+Filename: ./debs/tomkids.nhaccuatui_5.3.1_iphoneos-arm.deb
 Size: 16603214
-Installed-Size: 16603214
+Installed-Size: 22866
 MD5sum: 3f1bae712de0af032af5ab261ce45471
 SHA1: c4571a301774af50403a1832d2d58b1502249887
 SHA256: 25822fc5e7fbe900b00a303185dc392945a288bad233340b519861f365253d27
@@ -1241,9 +1241,9 @@ Priority: Optional
 Maintainer: Clone by Tomkids
 Author: TikTok
 Description: TikTok app for Low iOS
-Filename: ./tomkids.ticktok-ios6_2.0-5_iphoneos-arm.deb
+Filename: ./debs/tomkids.ticktok-ios6_2.0-5_iphoneos-arm.deb
 Size: 547296
-Installed-Size: 547296
+Installed-Size: 1756
 MD5sum: aee454670b16832b539cd0f1feed9882
 SHA1: 0072719d181693c91b91f9048b1067d5c3331a19
 SHA256: 26ce42e367c027f0af38dc0bb92edf8bd23a6a1c5e8f553bd033591696068548
@@ -1257,9 +1257,9 @@ Priority: Optional
 Maintainer: Zing
 Author: Build app to tweak by Tomkids
 Description: App Zing MP3
-Filename: ./tomkids.zingmp3_3.2.1-5_iphoneos-arm.deb
+Filename: ./debs/tomkids.zingmp3_3.2.1-5_iphoneos-arm.deb
 Size: 4817106
-Installed-Size: 4817106
+Installed-Size: 7520
 MD5sum: 5c4a791a7ab7a148d6188e4537c78cf3
 SHA1: 4ed3c618fb76853a376a6eff0ab7694b2a398dd5
 SHA256: 447da9fbd438939f70ed3a63568fcd69fae1356b588b0e78a9aa2c0c32e2447a
@@ -1274,9 +1274,9 @@ Maintainer: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Author: InvoxiPlayGames <webmaster@invoxiplaygames.uk>
 Depends: mobilesubstrate, firmware (>= 2.0)
 Description: Disable capability limits in the App Store.
-Filename: ./uk.invoxiplaygames.checkmatestore_1.2_iphoneos-arm.deb
+Filename: ./debs/uk.invoxiplaygames.checkmatestore_1.2_iphoneos-arm.deb
 Size: 8422
-Installed-Size: 8422
+Installed-Size: 164
 MD5sum: bffd0970354de15c226a914f451bbcc8
 SHA1: 6915f0e6efc942b2108af5aac31683ad15e0bfd1
 SHA256: 901d12e70c39f6d85a278b8abb2dcb8be2e833497d1da2bd0d4ca9ff1e925939
@@ -1290,9 +1290,9 @@ Priority: optional
 Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Homepage: http://www.rarlab.com/rar_add.htm
 Description: de-compresses files in rar format
-Filename: ./unrar_5.6.4-1_iphoneos-arm.deb
+Filename: ./debs/unrar_5.6.4-1_iphoneos-arm.deb
 Size: 151202
-Installed-Size: 151202
+Installed-Size: 736
 MD5sum: b9f61f520f9974e793a9a371120fbb8b
 SHA1: 6496cbab22198bb850668a8c14d3cdfc3749ee46
 SHA256: f836483ed61dcb9685f644d534d8c6612530fa34374803c5f3c665d64150d0fe
@@ -1308,9 +1308,9 @@ Author: Aaron Ash (Charybdis) <support@multifl0w.com>
 Depends: firmware (>= 3.0), mobilesubstrate, preferenceloader, libhide
 Conflicts: net.limneos.sbrotator (<= 2.1.5), com.aaronash.barrel, vn.gsm.barrel, com.heaveniphone.barrel, net.vnmagic.barrel
 Description: Hiệu ứng 3D cho các trang biểu tượng màn hình chủ
-Filename: ./us.hackphone.barrel_1.6.1-1_iphoneos-arm.deb
+Filename: ./debs/us.hackphone.barrel_1.6.1-1_iphoneos-arm.deb
 Size: 551670
-Installed-Size: 551670
+Installed-Size: 1338
 MD5sum: 1c31d71787a1384d8ea43ff6b9233825
 SHA1: cd6765fe3ffec6686d6b387ed54d6350bc1908ad
 SHA256: 279893d59abf29c7cd81416e6f4c38f24b4e20e871d6d08314d577bd84db2638
@@ -1327,9 +1327,9 @@ Homepage: http://hackphone.us
 Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
 Conflicts: vn.gsm.ifile, com.heaveniphone.ifile, eu.heinelt.ifile
 Description: Chương trình Quản lý tập tin và duyệt các định dạng tài liệu. iFile is a file manager runnning under user root. It allows fast navigation through the iPhone file system. It allows direct viewing of files of various types, e.g. movies, sound, text, HTML, Microsoft types, PDF, ZIP. For PDF files direct jumping to pages is possible. ZIP packing and unpacking is also supported. Files can be sent as email attachments. Text files and property lists can be edited. Folders and files can be bookmarked. In addition, files can be uploaded and downloaded from iFile's built-in web server.
-Filename: ./us.hackphone.ifile_1.7.2-2_iphoneos-arm.deb
+Filename: ./debs/us.hackphone.ifile_1.7.2-2_iphoneos-arm.deb
 Size: 4886366
-Installed-Size: 4886366
+Installed-Size: 8337
 MD5sum: 590a2f317f6fd02a8a9e77f4b26985cf
 SHA1: fcaf71d4bd640f1f3ae53917321e45ffbc0a8371
 SHA256: bd9574af25138aae79f4b9cad0a54fef3110b3cc9e7c48ca514a28e02cd0662b
@@ -1345,9 +1345,9 @@ Author: NetMage <scw@scw.us>
 Homepage: http://modmyi.com/info/afctwoadd.php
 Depends: com.ericasadun.utilities
 Description: Package to add afc2 service for USB browsing of filesystem. Adds the afc2 service and reboots the phone, to fix issues for folks unable to use USB browsers (like iPhoneBrowser) with blackra1n.
-Filename: ./us.scw.afctwoadd_1.01_iphoneos-arm.deb
+Filename: ./debs/us.scw.afctwoadd_1.01_iphoneos-arm.deb
 Size: 778
-Installed-Size: 778
+Installed-Size: 0
 MD5sum: 870d6097178fafbd14c7b4bcb667e50c
 SHA1: c25c1eccda760f8de0cf8acd95d2b12c2dd4e1bb
 SHA256: 078eac823c92271b09c445ea96f6634b6eedc7e61c251e0e9306e678c968fa04
@@ -1362,9 +1362,9 @@ Maintainer: TomKids
 Author: TomKids
 Depends: mobilesubstrate, preferenceloader
 Description: Show a customizable hello alert inside Settings on iOS 5 to 8.
-Filename: ./vn.dinhle.tweaks.saybye_2.0.0-1+debug_iphoneos-arm.deb
+Filename: ./debs/vn.dinhle.tweaks.saybye_2.0.0-1+debug_iphoneos-arm.deb
 Size: 17904
-Installed-Size: 17904
+Installed-Size: 256
 MD5sum: 98eb3dc578ccbd16a25c083898ded9ae
 SHA1: b98d3f879885ceadfe0a8b234c8b04d6049a1df3
 SHA256: fc743d6530ebf8fd060f3366781e15265251d5273a29b26b1b380de29516d5fb
@@ -1380,9 +1380,9 @@ Author: TheStudent
 Homepage: http://cydia.vn/
 Depends: winterboard
 Description: This is a theme that will make you enjoy your SpringBoard (again!)
-Filename: ./vn.gsm.0bscure7_1.5.0_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.0bscure7_1.5.0_iphoneos-arm.deb
 Size: 46456744
-Installed-Size: 46456744
+Installed-Size: 107607
 MD5sum: 4d6fbde307f0ea79a4e088b4d4a8d7b6
 SHA1: 9178978bfb3260f1b9653ee24499aaa8f39493b8
 SHA256: 47d2ca6c2f7cb0684912a4b9971aa5d359e3f8160cf62d58c2ae23bb84b39c11
@@ -1398,9 +1398,9 @@ Author: Surenix <repo@cydia.vn>
 Homepage: http://cydia.vn/
 Depends: firmware (>= 4.0), mobilesubstrate, preferenceloader
 Description: 2x2 Folder Icons for ayecon benchmark iOS theme.
-Filename: ./vn.gsm.2x2foldericons_1.0-1_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.2x2foldericons_1.0-1_iphoneos-arm.deb
 Size: 21798
-Installed-Size: 21798
+Installed-Size: 41
 MD5sum: 2f96499ae1cf6fdc83246d0866c83a94
 SHA1: 65b896a37b429e3d95f7abab4bcbdd162a782c69
 SHA256: 5fc07d008fc8214fcbb57cda513ca2baf404ab4ecb92dc293809b68a6ff9c7bf
@@ -1415,9 +1415,9 @@ Maintainer: Cydia.vn <repo@cydia.vn>
 Author: Costo Tech
 Depends: winterboard
 Description: Transparency on iOS just got Better.
-Filename: ./vn.gsm.aelon_2.3.7_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.aelon_2.3.7_iphoneos-arm.deb
 Size: 6912322
-Installed-Size: 6912322
+Installed-Size: 46596
 MD5sum: a421de13416e19a6f34cfe7bd9defd47
 SHA1: ca8810e4687a81c8fabb01d5da559132a30400ec
 SHA256: 0f27698bcf0c4583e29b6cc542d2a69870ab915a5b4a99e80d6812fd7c831d41
@@ -1433,9 +1433,9 @@ Author: Rene Daniel
 Homepage: http://cydia.vn/
 Depends: gsmicon, winterboard
 Description: An awesome theme for your device.
-Filename: ./vn.gsm.afterosre_1.0.4_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.afterosre_1.0.4_iphoneos-arm.deb
 Size: 6517174
-Installed-Size: 6517174
+Installed-Size: 6764
 MD5sum: 400fa7da618930a2f2a317833836d86f
 SHA1: c097e4f9e5db15b54436e6642a820d73f05080d8
 SHA256: 1669a64d214316cb4a9df711e8934c1335c1589406f6e48c20c6c1acd7667b20
@@ -1451,9 +1451,9 @@ Author: Surenix
 Homepage: http://cydia.vn/
 Depends: gsmicon, firmware (>= 4.0), winterboard, vn.gsm.2x2foldericons
 Description: A benchmark iOS theme.
-Filename: ./vn.gsm.ayecon_1.3.5_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.ayecon_1.3.5_iphoneos-arm.deb
 Size: 38601692
-Installed-Size: 38601692
+Installed-Size: 37000
 MD5sum: bd3bc438b6eb488376bec4f6461a1545
 SHA1: 30e9ea0cc1bf933a448d3eede531bb7652ac47e9
 SHA256: dc1be64f880db170ab886ee8fa393a29c85441e91d6c4edc0840dda670c722cd
@@ -1469,9 +1469,9 @@ Author: minhque <support@gsm.vn>
 Homepage: http://iphone.gsm.vn/
 Depends: winterboard, gsmicon
 Description: Colorgasm HD, colorful and attractive theme crafted in true high-definition.
-Filename: ./vn.gsm.colorgasmhd_1.15_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.colorgasmhd_1.15_iphoneos-arm.deb
 Size: 5627458
-Installed-Size: 5627458
+Installed-Size: 6349
 MD5sum: b563a6261cdcd0a671eecc2744f089ad
 SHA1: 933b36be8699c36663761fca26fa13ec29b474d6
 SHA256: a9456d49a0e5f605151e2151cac987ad9c0e36fff949763710e12ef34abe48be
@@ -1487,9 +1487,9 @@ Author: Ryan Petrich <repo@cydia.vn>
 Homepage: http://cydia.vn/
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2), libactivator (>= 1.9.1), gdata-objectivec-client | firmware (>= 7.0), firmware (>= 3), openssl, firmware (<< 9.9), com.rpetrich.rocketbootstrap (>= 1.0.1) | firmware (<< 7.0), com.a3tweaks.flipswitch (>= 1.0.5)
 Description: Record the display in real-time, send to camera roll, web interface, ProTapper-style touch circles and Activator integration
-Filename: ./vn.gsm.displayrecorder_1.3.20K_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.displayrecorder_1.3.20K_iphoneos-arm.deb
 Size: 956994
-Installed-Size: 956994
+Installed-Size: 2464
 MD5sum: d12a9a2dd2be8263306f2c524aaaa881
 SHA1: b992a6e01d4c4f2a9fd8c60321f3f123e909a9ed
 SHA256: bbe7c7df81ea8c2d4ec58492ab0a942f4e16120466fbfd0286a87a9c6a053444
@@ -1505,9 +1505,9 @@ Author: VladMax Soft
 Homepage: http://cydia.vn/
 Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, com.chpwn.weeloader, preferenceloader
 Description: beautiful animated flip clock widget for the notification center.
-Filename: ./vn.gsm.flipclockwidget_1.3.3-3_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.flipclockwidget_1.3.3-3_iphoneos-arm.deb
 Size: 2743766
-Installed-Size: 2743766
+Installed-Size: 2919
 MD5sum: 7012f8fcc2bc498a3a2b472a07d565e0
 SHA1: 7bb88f503c9142cbc0dee76588106755ecafa978
 SHA256: 76df7718f023925a8d411115b16110996820dc9bd82c2a72dd55f3a718ed4846
@@ -1523,9 +1523,9 @@ Author: Pelaez <me@epelaez.net>
 Homepage: http://iphone.gsm.vn/
 Depends: gsmicon
 Description: Giả lập iPod chơi nhạc trên iPhone / iPod Touch!
-Filename: ./vn.gsm.iclassic_1.5_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.iclassic_1.5_iphoneos-arm.deb
 Size: 676794
-Installed-Size: 676794
+Installed-Size: 532
 MD5sum: 07ae2d0f3946aa3d3359842673322783
 SHA1: 68406da76d9e6dcb5f02c71c9f18850ff6dc2a7d
 SHA256: adc8d5f1198ec6bec209defeba869d0d542db29fd51315b74f119c7f436a2c70
@@ -1541,9 +1541,9 @@ Author: Xvolks <repo@cydia.vn>
 Homepage: http://cydia.vn/
 Depends: gsmicon, firmware (>= 5.0), mobilesubstrate, preferenceloader, libstatusbar
 Description: clever efficient power management system
-Filename: ./vn.gsm.ioptimizeurbattery_2.0.1_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.ioptimizeurbattery_2.0.1_iphoneos-arm.deb
 Size: 743770
-Installed-Size: 743770
+Installed-Size: 1322
 MD5sum: 1fa359a0f909f181cfbfc5a4e5355791
 SHA1: 4de56c9dcfcdd89605925b37ce508b769f4a3b51
 SHA256: 4fb06daf0758e8b8a84ff192c9f3b0da0db6fd73b779d139a3d98df64dc36478
@@ -1559,9 +1559,9 @@ Author: Cody-lg
 Homepage: http://cydia.vn/
 Depends: gsmicon, winterboard, com.void.themeready, com.ipr.bytafont
 Description: iOS'86 consists of months of work and over 1,200 graphic
-Filename: ./vn.gsm.ios86_1.2.3_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.ios86_1.2.3_iphoneos-arm.deb
 Size: 5548900
-Installed-Size: 5548900
+Installed-Size: 15148
 MD5sum: d5f865c816642d4500fa33ccecac4c62
 SHA1: aa9c4d7a3e7fddf8434af3a7d8d17a9e8dfcd2f2
 SHA256: 8429f7802ab75adb006217bad6745d2bf3b89d4a5a51f90ac32808c7a5957a8f
@@ -1577,9 +1577,9 @@ Author: aricha
 Homepage: http://cydia.vn/
 Depends: gsmicon, firmware (>= 5.0), com.arichardson.weepreferenceloader, com.chpwn.weeloader
 Description: Control your music from the NC.
-Filename: ./vn.gsm.jukebox_1.6.3_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.jukebox_1.6.3_iphoneos-arm.deb
 Size: 401332
-Installed-Size: 401332
+Installed-Size: 1065
 MD5sum: 41279860ed394ec795450109e2a98e86
 SHA1: ee0d39dd683317c26daabfe927187c3f070a0a1f
 SHA256: eb9eed544ddf5768e882c290a45697e930c1f9d78f2ca5065df9f03609e34e7a
@@ -1597,9 +1597,9 @@ Depends: firmware (>= 4.0), system-cmds
 Conflicts: mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7, net.angelxwind.mobileterminal-applesdk, com.officialscheduler.mterminal
 Description: A Terminal emulator for iOS
  This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: ssh into remote boxes, download files, edit configuration files, whatever.
-Filename: ./vn.gsm.mobileterminal_520-5_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.mobileterminal_520-5_iphoneos-arm.deb
 Size: 85696
-Installed-Size: 85696
+Installed-Size: 696
 MD5sum: 1b8477b215a0792f399bc0f4c3e05874
 SHA1: a59846bf688d9a0a50a5fe2b77951ee96e352e81
 SHA256: 34dc5358fdf7e4113a1bc126224add6c0be5e8bcc61bde7be7330f6ff7a4442a
@@ -1615,9 +1615,9 @@ Author: chrisiyg <repo@cydia.vn>
 Homepage: http://cydia.vn/
 Depends: winterboard
 Description: A new experience for iOS 7
-Filename: ./vn.gsm.soft_2.0.2_iphoneos-arm.deb
+Filename: ./debs/vn.gsm.soft_2.0.2_iphoneos-arm.deb
 Size: 14809058
-Installed-Size: 14809058
+Installed-Size: 18770
 MD5sum: 45bd8be5294b444a4ac00d0a927eca57
 SHA1: 0f33b4c6a68fbf3748217a9c928be2a423a403f2
 SHA256: dce781bd9d7b4fcd66b6f87640f7b4fa7c79c33488f404f0560162f493895af6
@@ -1632,9 +1632,9 @@ Maintainer: TomKids
 Author: TomKids
 Depends: mobilesubstrate, preferenceloader, firmware (>= 5.0)
 Description: SpringBoard Notification Center style music panel for iOS 5-6 with artwork, controls and preferences.
-Filename: ./vn.tomkids.tweaks.ncmusicpanel_3.2.0-2+debug_iphoneos-arm.deb
+Filename: ./debs/vn.tomkids.tweaks.ncmusicpanel_3.2.0-2+debug_iphoneos-arm.deb
 Size: 2506780
-Installed-Size: 2506780
+Installed-Size: 2896
 MD5sum: f7c5c319ff690aee23c6594105c051ee
 SHA1: 7fe55f5705859afa3ccc53117b8079b431b2d5ef
 SHA256: 8f426d9286e5c0cc8f9ab90aea55edb19a51a25edd0a7d0e8aebe487e8181024
@@ -1653,9 +1653,9 @@ Conflicts: com.modmyifone.winterboardicon, winterboardsettings, themesettings, c
 Provides: theme-manager
 Replaces: com.modmyifone.winterboardicon, winterboardsettings, themesettings, com.iphonerepocenter.transparentdockfor3xtheme
 Description: theme manager, used by most themes
-Filename: ./winterboard_0.9.3919_iphoneos-arm.deb
+Filename: ./debs/winterboard_0.9.3919_iphoneos-arm.deb
 Size: 170088
-Installed-Size: 170088
+Installed-Size: 671
 MD5sum: b0b95f527c46d6ba434ff18080570707
 SHA1: 6966b324cbe3dcf52aacb12b66635c30f15f6aaa
 SHA256: 8a7120eba44a8b29b9f1344291a4d677db7e67bb2d98ed90c5368beb18f37040

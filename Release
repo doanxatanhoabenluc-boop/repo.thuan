@@ -1,0 +1,9 @@
+Origin: MyRepo
+Label: MyRepo
+Suite: stable
+Codename: stable
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+
+SHA256:
+ a293b92d6e0ff948dddb973525ebbd0cd014eb0c32fab1325bd5a5c6d556256c 62992 Packages
